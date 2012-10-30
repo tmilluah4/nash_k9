@@ -1,0 +1,35 @@
+
+.overview-sidebar {
+  width: 300px;
+  float: left;
+  margin-left: 200px;
+  a {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+  }
+  ul {
+    li {
+      float: left;
+      width: 230px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: white;
+      list-style: none;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.contact {
+  width: 300px;
+  float: left;
+  ul {
+    li{
+      list-style-type: none;
+      display: block;
+      border-bottom-style: none;
+    }
+  }
+}

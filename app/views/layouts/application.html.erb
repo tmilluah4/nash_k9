@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NashK9</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <title> </title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 <body>
-
-<%= yield %>
+<header style="height: 300px;"  >
+  <div>
+     <img src="assets/images/sub_bkg.png">
+  </div>
+</header>
+<div class="container">
+  <%= yield %>
+</div>
 
 </body>
 </html>
