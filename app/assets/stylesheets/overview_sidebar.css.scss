@@ -1,32 +1,50 @@
 
 .overview-sidebar {
-  width: 300px;
+  width: 330px;
   float: left;
-  margin-left: 200px;
+  margin-left: 130px;
+  margin-top: -50px;
+
+  .random-image {
+    float: left;
+    width: 302px;
+    height: 212px;
+    opacity: 0.4;
+    -moz-opacity: 0.40;
+    filter: alpha(opacity=40);
+    border: 11px solid black;
+  }
+
   a {
     text-decoration: none;
-    color:#ffffff;
+    color: #B8A84F;
     font-weight: bold;
   }
-  ul {
+
+  ul {   float: left;
     li {
+      line-height: 3em;
       float: left;
-      width: 230px;
+      width: 250px;
+      margin-left:-30px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom-color: white;
+      border-bottom-color: #333;
       list-style: none;
       margin-bottom: 5px;
       padding-bottom: 5px;
+
     }
   }
 }
 
 .contact {
-  width: 300px;
+  width: 330px;
   float: left;
+  color: #C9C6B7;
   ul {
     li{
+      line-height: 1em;
       list-style-type: none;
       display: block;
       border-bottom-style: none;

@@ -1,34 +1,213 @@
 
 .main {
-  width: 1000px;
-  background-image: image-url("sub_bkg.png");
-
-}
-.video-break-box {
-  background-color: gray;
-  color: #ffffff;
-  padding:8px;
+  width:1200px;
+  margin:auto;
 }
 
 .menu {
   width: 570px;
+  margin-top: 80px;
+  margin-right:150px;
   float: right;
   background-color: green;
   padding:1px 0px 1px 0px;
+
   ul {
     li{
       padding: 0 4px 0  4px;
       list-style-type: none;
       display: inline;
       border-bottom-style: none;
-
     }
   }
 }
 
-
+.header-child {
+  height: 220px;
+  width:1200px;
+  background-image: url('/assets/sub_bkg.png');
+  margin:auto;
+}
 
 .content {
-  float: right;
-  width: 500px;
+  float: left;
+  width: 630px;
+  line-height: 2em;
+  padding:20px;
+  color: #C9C6B7;
+  h2 {
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  h4 {
+    color: #B8A84F;
+  }
+
+  p.video-break-box {
+    background-color: #25221D;
+    color: #ffffff;
+    padding:7px;
+    .title {
+      padding-left: 3px;
+      font-weight: bold;
+      color: #B8A84F;
+    }
+  }
+
+  .right {
+    .image-border-right {
+      float: right;
+      padding-left: 2em;
+
+      img {
+        border: 5px;
+        border-style: solid;
+        border-color: #352F15;
+        width: 220px;
+        height: 150px;
+      }
+    }
+  }
+
+  .left {
+    .image-border-left {
+      float: left;
+      padding-right: 2em;
+
+      img {
+        border: 5px;
+        border-style: solid;
+        border-color: #352F15;
+        width: 220px;
+        height: 150px;
+      }
+    }
+  }
+
+  ul {
+    div.title {
+      width: 270px;
+      text-align: left;
+      padding: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #B8A84F;
+      border-bottom: 1px solid #333;
+      margin-left: -20px;
+    }
+
+
+    li {
+      list-style-type: square;
+      color: #B8A84F;
+      span.text {
+        color: #C9C6B7;
+      }
+    }
+    h2 {
+      margin-left: -20px;
+      font-weight: bold;
+      text-align: left;
+      color: #ffffff;
+    }
+  }
+
+  p.meet-the-team {
+    padding-left: 30px;
+  }
+
+  .right-meet-the-team {
+    padding-bottom: 30px;
+    .image-border-right {
+      float: right;
+      padding-left: 2em;
+
+      img {
+        border: 5px;
+        border-style: solid;
+        border-color: #352F15;
+        width: 220px;
+        height: 150px;
+      }
+    }
+  }
+
+
+  .right-testimonials {
+    padding-bottom: 50px;
+    height: 100%;
+    .image-border-right {
+      float: right;
+      padding-left: 2em;
+      margin-top: -10px;
+      img {
+        border: 5px;
+        border-style: solid;
+        border-color: #352F15;
+        width: 220px;
+        height: 150px;
+      }
+    }
+  }
+
+
+  .right-training-programs {
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    div.title{
+      width: 100%;
+      text-align: left;
+      padding: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #B8A84F;
+      border-bottom: 1px solid #333;
+    }
+    .image-border-right {
+      float: right;
+      padding-left: 2em;
+      margin-top: 50px;
+      img {
+        border: 5px;
+        border-style: solid;
+        border-color: #352F15;
+        width: 220px;
+        height: 150px;
+      }
+    }
+    ul {
+      div.title {
+        width: 100%;
+        text-align: left;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #B8A84F;
+        border-bottom: 1px solid #333;
+        margin-left: -40px;
+      }
+
+      p {
+        margin-left: -40px;
+      }
+
+      li {
+        list-style-type: square;
+        color: #B8A84F;
+        span.text {
+          color: #C9C6B7;
+        }
+      }
+    }
+  }
+}
+
+.image-border {
+  border: 5px;
+  border-style: solid;
+  border-color: #352F15;
+  width: 255px;
 }
