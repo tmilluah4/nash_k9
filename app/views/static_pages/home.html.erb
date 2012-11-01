@@ -1,13 +1,79 @@
-<div class="center hero-unit">
-  <h1>Welcome to the Sample App</h1>
 
-  <h2>
-    This is the home page for the
-    <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
+<%= render :partial => 'layouts/header_main', :locals => { :show_links => true } %>
 
-  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+<div class="main">
+
+  <div class="content">
+
+    <div class="home-page">
+      <div class="content-top">
+        <table>
+          <tr>
+            <td>
+              <div class="video-box">
+
+              </div>
+            </td>
+            <td>
+              <div class="right-side">
+                <img   src="/assets/tagline.png"/>
+                <table>
+                  <tr>
+                    <td>Main Office:</td>
+                    <td class="number">(615) 438-2602</td>
+                  </tr>
+                  <tr>
+                    <td>Sales:</td>
+                    <td class="number">(615) 438-2602</td>
+                  </tr>
+                  <tr>
+                    <td>Training:</td>
+                    <td class="number">(615) 499-8161</td>
+                  </tr>
+                  <tr>
+                    <td>Email:</td>
+                    <td>Click here to email us</td>
+                  </tr>
+                </table>
+              </div>
+
+
+            </td>
+          </tr>
+        </table>
+      </div>
+
+
+
+
+
+
+      <div class="content-bottom">
+        <table>
+          <tr>
+            <td>
+              WELCOME
+              <div>
+                We cover a wide variety of needs at Nashville K-9: Search and Rescue, Executive Protection, we even train dogs for law enforcement agencies. However the most important thing we do is address the needs of your house pets. From day one we implement techniques like luring, imprinting, and proofing to make sure your new family member starts out with a strong foundation of obedience and trainability. Our techniques are practical, fun, and will impress your neighbors. With a lifetime guarantee, you can rest assured that we stand behind our training.
+              </div>
+            </td>
+            <td>
+              <ul>
+                  <li>DOG TRAINING PROGRAMS</li>
+                  <li>EXECUTIVE PROTECTION DOGS</li>
+                  <li>DETECTION DOGS </li>
+                  <li>POLICE DOGS  </li>
+                  <li>SEARCH AND RESCUE</li>
+                  <li>PET FIRST AID</td>
+              </ul>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+
+      </div>
+
+
+    </div>
+  </div>
 </div>
-
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>

@@ -1,0 +1,24 @@
+
+//#########  MEET THE TEAM ###################
+
+p.meet-the-team {
+  padding-left: 30px;
+}
+
+.right-meet-the-team {
+  padding-bottom: 30px;
+  min-height: 300px;
+  .image-border-right {
+    float: right;
+    padding-left: 2em;
+
+    img {
+      border: 5px;
+      border-style: solid;
+      border-color: #352F15;
+      width: 220px;
+      height: 100%;
+    }
+  }
+}
+//############################

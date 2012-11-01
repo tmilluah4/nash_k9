@@ -3,15 +3,19 @@ NashK9::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
-     get "static_pages/home"
+     root to: 'static_pages#home'
+     get "static_pages/contact"
+     get "static_pages/dogs"
+     get "static_pages/training_videos"
+     get "static_pages/gallery"
 
-     get "overview/index"
-     get "overview/meet_the_team"
-     get "overview/facility"
-     get "overview/partners"
-     get "overview/press"
-     get "overview/testimonials"
-     get "overview/company_facts"
+     get "dog_training_tn_overview/index"
+     get "dog_training_tn_overview/meet_the_team"
+     get "dog_training_tn_overview/facility"
+     get "dog_training_tn_overview/partners"
+     get "dog_training_tn_overview/press"
+     get "dog_training_tn_overview/testimonials"
+     get "dog_training_tn_overview/company_facts"
 
      get "dog_training_tn_services/index"
      get "dog_training_tn_services/executive_protection_dogs"

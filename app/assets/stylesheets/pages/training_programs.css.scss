@@ -1,0 +1,130 @@
+
+
+//##########  TRAINING PROGRAMS  ##################
+.programs {
+  padding-bottom: 20px;
+  height: 100%;
+  min-height: 230px;
+  div.title{
+    word-wrap: normal;
+    width: 550px;
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #B8A84F;
+    border-bottom: 1px solid #333;
+  }
+  .image-border-right {
+    float: right;
+    padding-left: 2em;
+    margin-top: 10px;
+    img {
+
+      width: 250px;
+    }
+  }
+  ul {
+    div.title {
+      text-align: left;
+      padding: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #B8A84F;
+      border-bottom: 1px solid #333;
+      margin-left: -40px;
+    }
+
+    p {
+      margin-left: -40px;
+    }
+
+    li {
+      list-style-type: square;
+      color: #B8A84F;
+      span.text {
+        color: #C9C6B7;
+      }
+    }
+  }
+}
+
+
+
+.right-training-programs {
+  padding-bottom: 20px;
+  height: 100%;
+  div.title{
+    word-wrap: normal;
+    width: 550px;
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #B8A84F;
+    border-bottom: 1px solid #333;
+  }
+  .image-border-right {
+    float: right;
+    padding-left: 2em;
+    margin-top: 10px;
+    img {
+      border: 5px;
+      border-style: solid;
+      border-color: #352F15;
+      width: 220px;
+      height: 150px;
+    }
+  }
+  ul {
+    div.title {
+      text-align: left;
+      padding: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #B8A84F;
+      border-bottom: 1px solid #333;
+      margin-left: -40px;
+    }
+
+    p {
+      margin-left: -40px;
+    }
+
+    li {
+      list-style-type: square;
+      color: #B8A84F;
+      span.text {
+        color: #C9C6B7;
+      }
+    }
+  }
+}
+
+.left-training-programs {
+  padding-bottom: 50px;
+  height: 100%;
+  width: 100%;
+  div.title{
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #B8A84F;
+    border-bottom: 1px solid #333;
+  }
+  .image-border-left {
+    float: left;
+    padding-right: 2em;
+    margin-top: 10px;
+    img {
+      border: 5px;
+      border-style: solid;
+      border-color: #352F15;
+      width: 220px;
+      height: 150px;
+    }
+  }
+
+}
+//############################
