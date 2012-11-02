@@ -8,6 +8,34 @@ p.meet-the-team {
 .right-meet-the-team {
   padding-bottom: 30px;
   min-height: 300px;
+
+
+  ul {
+    div.title {
+      width: 270px;
+      text-align: left;
+      padding: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #B8A84F;
+      border-bottom: 1px solid #333;
+      margin-left: -20px;
+    }
+
+    li {
+      list-style-type: square;
+      color: #B8A84F;
+      span.text {
+        color: #C9C6B7;
+      }
+    }
+    h2 {
+      margin-left: -20px;
+      font-weight: bold;
+      text-align: left;
+      color: #ffffff;
+    }
+  }
   .image-border-right {
     float: right;
     padding-left: 2em;
