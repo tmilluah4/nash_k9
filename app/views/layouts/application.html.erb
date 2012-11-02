@@ -3,10 +3,27 @@
     <head>
       <SCRIPT LANGUAGE="JavaScript">
 
+
+          function setActive()
+          {
+              aObj2 =   document.getElementById('navSidebar').getElementsByTagName('a');
+              for(i=0;i<aObj2.length;i++)
+              {
+                  if(document.location.href.indexOf(aObj2[i].href)>=0)
+                  {
+                      aObj2[i].className='active';
+                  }
+              }
+          }
+          window.onload = setActive;
+
+
+
+
           var theImages = new Array()
 
-          theImages[0] = '/assets/AliCop.JPG'
-          theImages[1] = '/assets/1stPlace.jpg'
+          theImages[0] = '/assets/dog_training_overview/dog-training-overview-1.jpg'
+          theImages[1] = '/assets/dog_training_overview/dog-training-overview-2.jpg'
 
           var j = 0
           var p = theImages.length;
@@ -30,7 +47,7 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
     </head>
-    <body bgcolor="#ffffff" TEXT="#000000" link="#0000cd" vlink="#0000cd" alink="#ff0000" onLoad="autoImgFlip();">
+    <body   onLoad="autoImgFlip();">
         <div class="container">
           <%= yield %>
         </div>

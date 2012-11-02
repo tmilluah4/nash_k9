@@ -5,6 +5,8 @@
   margin-left: 130px;
   margin-top: -50px;
 
+
+
   .random-image-border {
     float: left;
     width: 302px;
@@ -32,11 +34,14 @@
     color: #ffffff;
 
   }
+
   ul.navSidebar {
     float: left;
 
     li {
-
+       .active {
+        color: #ffffff;
+      }
       line-height: 3em;
       float: left;
       width: 250px;
@@ -72,7 +77,7 @@
         list-style-type: none;
         display: block;
         border-bottom-style: none;
-        .numbers {
+        span {
           color: #C9C6B7;
           float:right; font-weight: normal;
         }
