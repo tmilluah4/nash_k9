@@ -1,14 +1,22 @@
 
 //###########  TRAINING VIDEOS   #################
-table.videos {
-  padding: 10px;
+div.videos {
+  padding: 20px;
+
+  td {
+    padding-top: 10px;
+    width: 300px;
+  }
 }
+
 .bordered-promos {
-  border: 5px;
-  border-style: solid;
-  border-color: #352F15;
-  height: 139px;
-  width: 220px;
-  display: block;
+  img {
+    border: 5px;
+    border-style: solid;
+    border-color: #352F15;
+    height: 139px;
+    width: 220px;
+    display: block;
+  }
 
 }

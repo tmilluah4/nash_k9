@@ -13,15 +13,13 @@ group :production do
 end
 
 gem 'jquery-rails'
-
+gem 'fancybox-rails'
 group :assets do
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
   gem 'therubyracer', :platforms => :ruby
   gem 'uglifier', '1.2.3'
 end
-
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

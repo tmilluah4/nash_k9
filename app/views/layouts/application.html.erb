@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title> </title>
-  <%= stylesheet_link_tag    "application", media: "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-<body>
+    <head>
+      <SCRIPT LANGUAGE="JavaScript">
 
-    <div class="container">
-      <%= yield %>
-    </div>
+          var theImages = new Array()
 
-</body>
+          theImages[0] = '/assets/AliCop.JPG'
+          theImages[1] = '/assets/1stPlace.jpg'
+
+          var j = 0
+          var p = theImages.length;
+          var preBuffer = new Array()
+          for (i = 0; i < p; i++){
+              preBuffer[i] = new Image()
+              preBuffer[i].src = theImages[i]
+          }
+          var whichImage = Math.round(Math.random()*(p-1));
+          function showImage(){
+              document.write('<img src="'+theImages[whichImage]+'">');
+          }
+      </script>
+
+
+      <title> </title>
+      <%= stylesheet_link_tag    "application", media: "all" %>
+      <%= javascript_include_tag "application" %>
+      <%= csrf_meta_tags %>
+      <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+    <body bgcolor="#ffffff" TEXT="#000000" link="#0000cd" vlink="#0000cd" alink="#ff0000" onLoad="autoImgFlip();">
+        <div class="container">
+          <%= yield %>
+        </div>
+    </body>
 </html>

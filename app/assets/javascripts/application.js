@@ -13,3 +13,41 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require fancybox
+
+$(document).ready(function() {
+    $("a.fancybox").fancybox();
+});
+
+$(document).ready(function() {
+    $(".video").fancybox({
+        width: 600,
+        height: 425,
+        type: 'iframe',
+        fitToView : false
+    });
+});
+
+$('.box').each(function() {
+    $(this).before($('<span>').text("■"));
+});
+
+
+
+
+
+
+function setActive()
+{
+    aObj2 =   document.getElementById('navSidebar').getElementsByTagName('a');
+    for(i=0;i<aObj2.length;i++)
+    {
+        if(document.location.href.indexOf(aObj2[i].href)>=0)
+        {
+            aObj2[i].className='active';
+        }
+    }
+}
+window.onload = setActive;
+
+
