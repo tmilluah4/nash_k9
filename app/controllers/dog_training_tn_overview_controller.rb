@@ -2,7 +2,7 @@ class DogTrainingTnOverviewController < ApplicationController
   protect_from_forgery
 
   def index
-            d
+
   end
 
   def meet_the_team

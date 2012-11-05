@@ -47,8 +47,10 @@ window.onload = setActive;
 
 var theImages = new Array()
 
-theImages[0] = '/assets/dog_training_overview/dog-training-overview-1.jpg'
-theImages[1] = '/assets/dog_training_overview/dog-training-overview-2.jpg'
+theImages[0] = '/assets/random/1.jpg'
+theImages[1] = '/assets/random/2.jpg'
+theImages[2] = '/assets/random/3.jpg'
+theImages[3] = '/assets/random/4.jpg'
 
 var j = 0
 var p = theImages.length;
