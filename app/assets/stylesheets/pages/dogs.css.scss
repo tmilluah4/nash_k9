@@ -14,9 +14,13 @@
     height: 200px;
     width: 206px;
     background-color: #333;
+    .photo {
+      margin-top: -30px;
+      margin-left: -20px;
+    }
     img {
       margin-left: -24px;
-      border: 5px;
+      border-width: 5px 5px 20px 5px;
       border-style: solid;
       border-color: #352F15;
       width: 220px;
