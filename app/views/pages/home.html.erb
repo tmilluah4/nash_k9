@@ -64,14 +64,7 @@
               </ul>
             </td>
             <td>
-              # first, initialize a Graph API with your token
-              @graph = Koala::Facebook::GraphAPI.new(your_oauth_token) # pre 1.2beta
-              @graph = Koala::Facebook::API.new(your_oauth_token) # 1.2beta and beyond
 
-              # now, try that query again
-              # http://graph.facebook.com/koppel/likes?access_token=#{your_oauth_token}
-              @graph.get_connections("koppel", "likes")
-              # => [{"name"=>"Mechanics' Institute Library", ....}]
             </td>
           </tr>
         </table>
