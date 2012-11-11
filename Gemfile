@@ -3,9 +3,14 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem "mail_form", ">= 1.3.0"
+gem 'simple_form'
+gem 'koala'
 group :development do
   gem 'sqlite3', '1.3.5'
+  gem 'capybara'
+  gem 'rspec'
+  gem "mail_form", ">= 1.3.0"
 end
 
 group :production do

@@ -1,0 +1,36 @@
+
+<%= render :partial => 'layouts/header_child', :locals => { :show_links => true } %>
+
+<div class="main">
+  <%= render :partial => 'layouts/contact_sidebar', :locals => { :show_links => true } %>
+  <div class="content">
+    <h2>Contact Us</h2>
+    <div class="contact-us">
+
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" class="textbox"/></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="text" class="textbox"/></td>
+        </tr>
+        <tr>
+          <td>Phone:</td>
+          <td><input type="text" class="textbox"/></td>
+        </tr>
+        <tr>
+          <td>Message:</td>
+          <td><input type="text" class="textbox"/></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" value="submit"/></td>
+
+        </tr>
+      </table>
+
+
+    </div>
+  </div>
+</div>

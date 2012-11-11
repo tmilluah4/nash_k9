@@ -17,9 +17,9 @@
     border: 11px solid black;
   }
   .random-image {
-    margin-top:-220px;
+    margin-top:-222px;
     float: left;
-    padding-left: 12px;
+    padding-left: 10px;
     width: 302px;
     height: 212px;
   }
@@ -111,6 +111,10 @@
 
   div.contact-page-sidebar {
      width: 300px;
+     a {
+       color: white;
+       text-decoration: none;
+     }
     ul {   float: left;
       width: 300px;
       li.header {
@@ -136,7 +140,10 @@
         list-style: none;
         margin-bottom: 5px;
         padding-bottom: 5px;
-
+        span {
+          color: #C9C6B7;
+          width: 200px;
+        }
       }
     }
   }

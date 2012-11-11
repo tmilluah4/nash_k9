@@ -1,0 +1,36 @@
+<%= render :partial => 'layouts/header_child', :locals => { :show_links => true } %>
+
+<div class="main">
+  <%= render :partial => 'layouts/contact_sidebar', :locals => { :show_links => true } %>
+  <div class="content">
+    <h2>Contact Us</h2>
+    <div class="contact-us">
+<%=  simple_form_for @contact_form do |f| %>
+ <div class="field">
+   <div class="label"><%= f.label :name %></div>
+
+  <%= f.text_field :name, :required => true %> <br /><br><br>
+ </div>
+ <div class="field">
+   <div class="label"><%= f.label :email %></div>
+  <%= f.email_field :email, :required => true %>
+  <br /><br><br>
+ </div>
+  <div class="field">
+    <div class="label"><%= f.label :phone %></div>
+    <%= f.email_field :phone, :required => true %>
+    <br /><br><br>
+  </div>
+  <div class="field">
+    <div class="label"><%= f.label :message %> </div>
+    <%= f.email_field :message, :required => true %>
+    <br /><br><br>
+  </div>
+ <div  class="button">
+   <div class="label"> Submit: </div> <%= f.submit "Submit" %>
+</div>
+
+<% end %>
+   </div>
+  </div>
+</div>

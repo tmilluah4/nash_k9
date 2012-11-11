@@ -1,4 +1,4 @@
-class StaticPagesController < ApplicationController
+class PagesController < ApplicationController
   protect_from_forgery
 
   def home

@@ -1,14 +1,15 @@
 NashK9::Application.routes.draw do
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:
-     root to: 'static_pages#home'
-     get "static_pages/contact"
-     get "static_pages/dogs"
-     get "static_pages/training_videos"
-     get "static_pages/gallery"
-
+     root to: 'pages#home'
+     get "pages/contact"
+     get "pages/dogs"
+     get "pages/training_videos"
+     get "pages/gallery"
+     resources :contact_forms
      get "dog_training_tn_overview/index"
      get "dog_training_tn_overview/meet_the_team"
      get "dog_training_tn_overview/facility"

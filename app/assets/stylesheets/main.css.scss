@@ -18,6 +18,28 @@
   margin:auto;
 }
 
+.table-footer {
+    padding-top: 10px;
+    width: 960px;
+    margin: auto;
+    border-top: 1px solid #333;
+    .td-one {
+      width:60px;
+      vertical-align:top;
+    }
+    .td-two {
+      align:left;
+      width:560px;
+      vertical-align:middle;
+      margin-top:-20px;
+    }
+    .td-three{
+      width:272px;
+      vertical-align:top
+    }
+
+
+}
 //########  MAIN CONTENT  ####################
 .content {
   float: left;
@@ -36,7 +58,12 @@
     color: #B8A84F;
   }
 
-
+  a {
+    color: #C9C6B7;
+  }
+  span {
+    color: #C9C6B7;
+  }
   div.title {
     word-wrap: normal;
     width: 600px;
@@ -149,11 +176,18 @@
   }
 
   //############################
+  .fancybox {
 
+
+
+  }
   .image-border {
     border: 5px;
     border-style: solid;
     border-color: #352F15;
     width: 255px;
   }
+}
+.numbers {
+  color: #C9C6B7;
 }

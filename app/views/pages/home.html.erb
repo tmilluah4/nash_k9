@@ -19,7 +19,7 @@
             <td>
               <div class="right-side">
                 <img   src="/assets/tagline.png"/>
-                <table>
+                <table >
                   <tr>
                     <td>Main Office:</td>
                     <td class="number">(615) 438-2602</td>
@@ -55,15 +55,24 @@
             </td>
             <td>
               <ul>
-                  <li>DOG TRAINING PROGRAMS</li>
-                  <li>EXECUTIVE PROTECTION DOGS</li>
-                  <li>DETECTION DOGS </li>
-                  <li>POLICE DOGS  </li>
-                  <li>SEARCH AND RESCUE</li>
-                  <li>PET FIRST AID</td>
+                  <li><a href="/dog_training_tn_services/nashville_dog_training_programs">DOG TRAINING PROGRAMS</a></li>
+                  <li><a href="/dog_training_tn_services/executive_protection_dogs">EXECUTIVE PROTECTION DOGS</a></li>
+                  <li><a href="/dog_training_tn_services/detection_dogs">DETECTION DOGS</a></li>
+                  <li><a href="/dog_training_tn_services/police_dogs">POLICE DOGS </a> </li>
+                  <li><a href="/dog_training_tn_services/search_and_rescue">SEARCH AND RESCUE</a></li>
+                  <li><a href="/dog_training_tn_services/pet_first_aid">PET FIRST AID</a></td>
               </ul>
             </td>
-            <td></td>
+            <td>
+              # first, initialize a Graph API with your token
+              @graph = Koala::Facebook::GraphAPI.new(your_oauth_token) # pre 1.2beta
+              @graph = Koala::Facebook::API.new(your_oauth_token) # 1.2beta and beyond
+
+              # now, try that query again
+              # http://graph.facebook.com/koppel/likes?access_token=#{your_oauth_token}
+              @graph.get_connections("koppel", "likes")
+              # => [{"name"=>"Mechanics' Institute Library", ....}]
+            </td>
           </tr>
         </table>
       </div>

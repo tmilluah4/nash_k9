@@ -1,26 +1,41 @@
 
 //###########  CONTACT US   #################
 .contact-us {
-  ul {
-    li {
+    .field {
+      .label {
+        display:inline-block;
+        width:100px;
+      }
+      input {
 
-      list-style-type: none;
-      color: #C9C6B7;
-      padding: 10px;
-      label{
-        width: 200px;
+        background-color: #333;
+        border: 1px solid #666;
+        padding: 10px;
+
       }
     }
-    .textbox {
-      background-color: #333;
-      border: 1px solid #666;
-      padding: 10px;
+
+
+    .button {
+      .label {
+        display:inline-block;
+        width:100px;
+      }
+      input {
+        background-color: #006400;
+        color: white;
+        border: 3px solid #333;
+        width:100px;
+        height: 30px;
+      }
+      input:hover {
+        background-color: #352F15;
+        color: white;
+        border: 3px solid #333;
+        width:100px;
+        height: 30px;
+        cursor: pointer;
+      }
     }
-    label {
-      width: 200px;
-    }
-  }
-  label {
-    width: 200px;
-  }
 }
+
