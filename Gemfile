@@ -6,6 +6,8 @@ gem 'rails', '3.2.8'
 gem "mail_form", ">= 1.3.0"
 gem 'simple_form'
 gem 'koala'
+gem 'mail'
+gem 'actionmailer'
 group :development do
   gem 'sqlite3', '1.3.5'
   gem 'capybara'
