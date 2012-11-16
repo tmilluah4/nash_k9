@@ -9,8 +9,8 @@ NashK9::Application.routes.draw do
      get "pages/dogs"
      get "pages/training_videos"
      get "pages/gallery"
-
-
+     match 'home' => 'home#index'
+     match 'home/callback' => 'home#callback'
      get "dog_training_tn_overview/index"
      get "dog_training_tn_overview/meet_the_team"
      get "dog_training_tn_overview/facility"

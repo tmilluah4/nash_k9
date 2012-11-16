@@ -1,7 +1,7 @@
 
 <%= render :partial => 'layouts/header_main', :locals => { :show_links => true } %>
 
-<div class="main">
+<div class="main" xmlns="http://www.w3.org/1999/html">
 
   <div class="content">
 
@@ -64,6 +64,16 @@
               </ul>
             </td>
             <td>
+              <div style="height:250px;   overflow: auto; padding: 0px;">
+                  <ul>
+                    <% @stream.each do |status| %>
+                        <li><span class="text"> <%= status["message"] %> </li>  </br>
+                    <% end %>
+                  </ul>
+
+
+
+              </div>
 
             </td>
           </tr>
