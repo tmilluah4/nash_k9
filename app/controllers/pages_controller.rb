@@ -61,8 +61,10 @@ class PagesController < ApplicationController
 
     @api = Koala::Facebook::API.new("AAAFdvM04JnQBAMZBmVuYMWes5rrYBmqWXOmhkPjQpenbbZA2qC3Yqq2acC0brNxru91nqj6ZCvdle9ZCeGaTo9Ndd5VwvlvmI0Uj79CkYwZDZD")
     begin
-      @album_graph  = @api.fql_query("SELECT  src_big,src FROM photo WHERE aid = '100000256514752_123407'" )
-
+      @album_graph_cover  = @api.fql_query("SELECT src_big,src FROM photo WHERE aid = '100000256514752_123407' LIMIT 1" )
+      @album_graph  = @api.fql_query("SELECT src_big,src FROM photo WHERE aid = '100000256514752_123407'" )
+      @graph2_cover = @api.fql_query("SELECT  src_big,src FROM photo WHERE aid = '100000256514752_122372'  LIMIT 1" )
+      @graph2 = @api.fql_query("SELECT  src_big,src FROM photo WHERE aid = '100000256514752_122372'" )
     rescue Exception=>ex
       puts ex.message
     end

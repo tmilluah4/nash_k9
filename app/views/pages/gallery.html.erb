@@ -9,20 +9,43 @@
             $('a.fancygallery').fancybox();
         });
     </script>
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <table>
+        <tr>
+          <td>
+            <div class="image-border-gallery-left">
+              <% @album_graph_cover.each do |album| %>
+                <a href="<%= album["src_big"] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= album["src_big"] %>" class="no-video" />
+                </a>
+              <% end %>
+                <div style="display:none;">
+                  <% @album_graph.each do |album| %>
+                      <a class="fancygallery" rel="gallery" href="<%= album["src_big"] %>" >   </a>
+                  <% end %>
+                </div>
+                <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+            </div>
+          </td>
+          <td>
+            <div class="image-border-gallery-right">
+              <% @graph2_cover.each do |album| %>
+                  <a href="<%= album["src_big"] %>" rel="gallery" class="fancygallery">
+                    <img src="<%= album["src_big"] %>" class="no-video" />
+                  </a>
+              <% end %>
+              <div style="display:none;">
+                <% @graph2.each do |album| %>
+                    <a class="fancygallery" rel="gallery" href="<%= album["src_big"] %>" >   </a>
+                <% end %>
+              </div>
+              <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+            </div>
+          </td>
+        </tr>
+      </table>
 
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <a href="/assets/gallery/covers/puppies-police-training.jpg" rel="gallery" class="fancygallery">
-          <img src="/assets/gallery/covers/puppies-police-training.jpg" class="no-video" />
-        </a>
-        <div style="display:none;">
-          <% @album_graph.each do |album| %>
-              <a class="fancygallery" rel="gallery" href="<%= album["src_big"] %>" >   </a>
-          <% end %>
-        </div>
-
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-      </div>
 
     </div>
 

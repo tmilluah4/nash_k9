@@ -1,0 +1,70 @@
+//###########  DOGS   #################
+.gallery {
+  padding-bottom: 50px;
+  height: 100%;
+  min-height: 240px;
+  width: 600px;
+  display:inline-block;
+  padding-left: 30px;
+
+
+  .image-border-gallery-right {
+    float: right;
+    padding-left: 2em;
+    margin-top: 20px;
+    height: 170px;
+    width: 206px;
+    background-color: #333;
+    img:hover {
+      margin-left: -24px;
+      border-width: 5px 5px 20px 5px;
+      border-style: solid;
+      border-color: #B8A84F;
+      width: 220px;
+      height: 150px;
+    }
+    .photo {
+      margin-top: -30px;
+      margin-left: -20px;
+    }
+    .no-video {
+      margin-left: -24px;
+      border-width: 5px 5px 20px 5px;
+      border-style: solid;
+      border-color: #352F15;
+      width: 220px;
+      height: 150px;
+    }
+  }
+
+
+  .image-border-gallery-left {
+    float: left;
+    padding-left: 2em;
+    margin-top: 20px;
+    height: 170px;
+    width: 206px;
+    background-color: #333;
+    img:hover {
+      margin-left: -24px;
+      border-width: 5px 5px 20px 5px;
+      border-style: solid;
+      border-color: #B8A84F;
+      width: 220px;
+      height: 150px;
+    }
+    .photo {
+      margin-top: -30px;
+      margin-left: -20px;
+    }
+    .no-video {
+      margin-left: -24px;
+      border-width: 5px 5px 20px 5px;
+      border-style: solid;
+      border-color: #352F15;
+      width: 220px;
+      height: 150px;
+    }
+  }
+}
+

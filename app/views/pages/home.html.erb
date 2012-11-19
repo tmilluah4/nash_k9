@@ -60,14 +60,18 @@
                   <li><a href="/dog_training_tn_services/detection_dogs">DETECTION DOGS</a></li>
                   <li><a href="/dog_training_tn_services/police_dogs">POLICE DOGS </a> </li>
                   <li><a href="/dog_training_tn_services/search_and_rescue">SEARCH AND RESCUE</a></li>
-                  <li><a href="/dog_training_tn_services/pet_first_aid">PET FIRST AID</a></td>
+                  <li><a href="/dog_training_tn_services/pet_first_aid">PET FIRST AID</a>
               </ul>
             </td>
             <td>
-              <div style="height:250px;   overflow: auto; padding: 0px;">
+              <div style="height:270px; margin-top:27px;  line-height: .1em;  overflow: auto; padding: 0px;">
+
+
                   <ul>
                     <% @stream.each do |status| %>
-                        <li><span class="text"> <%= status["message"] %> </li>  </br>
+                        <li style="list-style-type: square; padding-bottom: 5px; border-bottom: 2px solid #333; line-height: 2em; color: #B8A84F;">
+                          <span class="text"> <%= status["message"] %> </span>
+                        </li>  </br>   </br>
                     <% end %>
                   </ul>
 
