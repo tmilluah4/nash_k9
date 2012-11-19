@@ -10,7 +10,7 @@
   .image-border-right {
     float: right;
     padding-left: 2em;
-    margin-top: 20px;
+    margin-top: 35px;
     height: 200px;
     width: 206px;
 
@@ -46,6 +46,29 @@
        width: 220px;
        height: 150px;
      }
+    .sold {
+      float:right;
+      height: 21px;
+      margin-right: 10px;
+      padding-top: 5px;
+      margin-top:-32px;
+    }
+    .soldtable {
+      background-color: #25221D;
+      height: 17px;
+      border: 2px;
+      border-style: solid;
+      border-color: #352F15;
+    }
+    .soldtd{
+      width: 35px;
+      height: 17px;
+      padding-left: 5px;
+      padding-right: 5px;
+      vertical-align: top;
+      color: #B8A84F;
+      padding-bottom: 4px;
+    }
   }
 
   #hovDiv:hover {
@@ -55,10 +78,34 @@
   .image-border-right-no-video {
     float: right;
     padding-left: 2em;
-    margin-top: 20px;
+    margin-top: 35px;
     height: 170px;
     width: 206px;
     background-color: #333;
+
+    .sold {
+      float:right;
+      height: 21px;
+      margin-right: 10px;
+      padding-top: 5px;
+      margin-top:-32px;
+    }
+    .soldtable {
+      background-color: #25221D;
+      height: 17px;
+      border: 2px;
+      border-style: solid;
+      border-color: #352F15;
+    }
+    .soldtd{
+      width: 35px;
+      height: 17px;
+      padding-left: 5px;
+      padding-right: 5px;
+      vertical-align: top;
+      color: #B8A84F;
+      padding-bottom: 4px;
+    }
     img:hover {
       margin-left: -24px;
       border-width: 5px 5px 20px 5px;

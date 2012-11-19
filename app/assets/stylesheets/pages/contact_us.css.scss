@@ -1,35 +1,62 @@
 
 //###########  CONTACT US   #################
 .contact-us {
+    .field {
+      .label {
+        display:inline-block;
+        width:100px;
+      }
+      #user_name {
 
-  .txtBox {
         background-color: #333;
         border: 1px solid #666;
         padding: 10px;
-        color: white;
-        width: 200px;
-  }
 
-  .btn {
-    background-color: #006400;
-    color: white;
-    border: 3px solid #333;
-    width:130px;
-    height: 40px;
-    margin: 10px 0 0  50px;
-  }
-  .btn:hover {
+      }
+      #user_comment {
+
+        background-color: #333;
+        border: 1px solid #666;
+        padding: 10px;
+        height: 140px;
+        width: 400px;
+      }
+      #user_email {
+
+        background-color: #333;
+        border: 1px solid #666;
+        padding: 10px;
+
+      }
+      #user_phone {
+
+        background-color: #333;
+        border: 1px solid #666;
+        padding: 10px;
+
+      }
+
+    }
+
+
+    .actions {
+      margin-left: 50px;
+      margin-top:30px;
+      input {
+        background-color: #006400;
+        color: white;
+        border: 3px solid #333;
+        width:100px;
+        height: 30px;
+      }
+      input:hover {
         background-color: #352F15;
         color: white;
         border: 3px solid #333;
-        width:130px;
-        height: 40px;
+        width:100px;
+        height: 30px;
         cursor: pointer;
       }
-
-
-   .textLabel {
-     width: 100px;
-   }
+    }
 }
 
