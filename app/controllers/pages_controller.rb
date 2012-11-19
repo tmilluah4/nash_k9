@@ -17,7 +17,7 @@ class PagesController < ApplicationController
 
     # auth established, now do a graph call:
 
-    @api = Koala::Facebook::API.new(session[:access_token])
+     @api = Koala::Facebook::API.new("AAAFdvM04JnQBAMZBmVuYMWes5rrYBmqWXOmhkPjQpenbbZA2qC3Yqq2acC0brNxru91nqj6ZCvdle9ZCeGaTo9Ndd5VwvlvmI0Uj79CkYwZDZD")
     begin
       @stream  = @graph_data = @api.get_object("/me/statuses", "fields"=>"message")
 
@@ -59,7 +59,7 @@ class PagesController < ApplicationController
 
     # auth established, now do a graph call:
 
-    @api = Koala::Facebook::API.new(session[:access_token])
+    @api = Koala::Facebook::API.new("AAAFdvM04JnQBAMZBmVuYMWes5rrYBmqWXOmhkPjQpenbbZA2qC3Yqq2acC0brNxru91nqj6ZCvdle9ZCeGaTo9Ndd5VwvlvmI0Uj79CkYwZDZD")
     begin
       @album_graph  = @api.fql_query("SELECT  src_big,src FROM photo WHERE aid = '100000256514752_123407'" )
 
