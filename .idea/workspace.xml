@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="272e8cc7-35c1-42f3-9159-07fea83001c0" name="Default" comment="">
       <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/DSC00784.JPG" afterPath="$PROJECT_DIR$/app/assets/images/DSC00784.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dog_training_tn_services/nashville_dog_training_programs.erb" afterPath="$PROJECT_DIR$/app/views/dog_training_tn_services/nashville_dog_training_programs.erb" />
     </list>
     <ignored path="nash_k9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,15 +34,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup_confirmation.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/user_mailer/signup_confirmation.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,59 +43,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="26" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.6515513">
+            <state line="57" column="26" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <file leaf-file-name="main.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="21" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
+            <state line="75" column="21" selection-start="1112" selection-end="1171" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="nashville_dog_training_programs.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/dog_training_tn_services/nashville_dog_training_programs.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="26" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+            <state line="143" column="53" selection-start="7156" selection-end="7156" vertical-scroll-proportion="0.37931034">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_mailer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+      <file leaf-file-name="dogs.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/dogs.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Users/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="88" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1353419893000" expanded="true" signature="103:444" placeholder="..." />
-                <marker date="1353419893000" expanded="true" signature="217:437" placeholder="..." />
-                <marker date="1353419893000" expanded="true" signature="288:428" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_us.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages/contact_us.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="34" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/_static_page_sidebar.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/sub_page_sidebar.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pages/dogs.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/dogs.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/training_videos.html.erb" />
@@ -157,6 +125,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pages/contact_us.css.scss" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/dog_training_tn_services/nashville_dog_training_programs.erb" />
       </list>
     </option>
   </component>
@@ -1150,27 +1120,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/constants.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/callback.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20121119200859_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20121120135100_add_message_to_user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1217,9 +1166,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="88" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1353419893000" expanded="true" signature="103:444" placeholder="..." />
-            <marker date="1353419893000" expanded="true" signature="217:437" placeholder="..." />
-            <marker date="1353419893000" expanded="true" signature="288:428" placeholder="..." />
+            <marker date="1353419893000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1353419893000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1353419893000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1273,7 +1222,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="26" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.6515513">
+        <state line="57" column="26" selection-start="2181" selection-end="2181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/dogs.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="21" selection-start="1112" selection-end="1171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dog_training_tn_services/nashville_dog_training_programs.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="53" selection-start="7156" selection-end="7156" vertical-scroll-proportion="0.37931034">
           <folding />
         </state>
       </provider>
