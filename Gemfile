@@ -3,24 +3,23 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem "mail_form", ">= 1.3.0"
-gem 'simple_form'
+
 gem 'koala'
-gem 'mail'
+gem 'jquery-rails'
+gem 'fancybox-rails'
 gem 'actionmailer'
+
 group :development do
   gem 'sqlite3', '1.3.5'
   gem 'capybara'
   gem 'rspec'
-  gem "mail_form", ">= 1.3.0"
 end
 
 group :production do
   gem 'pg', '0.12.2'
 end
 
-gem 'jquery-rails'
-gem 'fancybox-rails'
+
 group :assets do
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
