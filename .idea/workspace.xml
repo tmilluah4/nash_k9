@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="272e8cc7-35c1-42f3-9159-07fea83001c0" name="Default" comment="">
       <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/DSC00784.JPG" afterPath="$PROJECT_DIR$/app/assets/images/DSC00784.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nash_k9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,7 +79,7 @@
       <file leaf-file-name="development.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="627" selection-end="627" vertical-scroll-proportion="0.7033493">
+            <state line="14" column="17" selection-start="627" selection-end="627" vertical-scroll-proportion="0.050239235">
               <folding />
             </state>
           </provider>
@@ -1216,7 +1217,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="627" selection-end="627" vertical-scroll-proportion="0.7033493">
+        <state line="14" column="17" selection-start="627" selection-end="627" vertical-scroll-proportion="0.050239235">
           <folding />
         </state>
       </provider>
