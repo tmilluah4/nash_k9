@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-  attr_accessible :comment, :phone, :email, :name, :subject
+  attr_accessible :message, :phone, :email, :name, :subject
 end

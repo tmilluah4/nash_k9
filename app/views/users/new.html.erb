@@ -1,9 +1,10 @@
 <%= render :partial => 'layouts/header_child', :locals => { :show_links => true } %>
 
-<div class="main">
+<div class="main" xmlns="http://www.w3.org/1999/html">
   <%= render :partial => 'layouts/contact_sidebar', :locals => { :show_links => true } %>
   <div class="content">
     <img src="/assets/titles/Insist.png">
+    </br> </br>
     <div class="contact-us">
             <%= form_for @user do |f| %>
                 <% if @user.errors.any? %>
@@ -33,11 +34,11 @@
                     <%= f.text_field :phone %>
                 </div>
                 <div class="field">
-                  <%= f.label :comments %><br />
-                  <%= f.text_field :comments %>
+                  <%= f.label :message %><br />
+                  <%= f.text_area :message %>
                 </div>
                 <div class="actions">
-                  <%= f.submit "Sign Up" %>
+                  <%= f.submit "Submit" %>
                 </div>
             <% end %>
         </div>
