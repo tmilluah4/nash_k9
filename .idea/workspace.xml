@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="272e8cc7-35c1-42f3-9159-07fea83001c0" name="Default" comment="">
       <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/DSC00784.JPG" afterPath="$PROJECT_DIR$/app/assets/images/DSC00784.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
     </list>
     <ignored path="nash_k9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20121119200859_create_users.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20121119200859_create_users.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20121119200859_create_users.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -75,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="development.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="6" selection-start="629" selection-end="1062" vertical-scroll-proportion="0.0">
+            <state line="14" column="1" selection-start="627" selection-end="627" vertical-scroll-proportion="0.050239235">
               <folding />
             </state>
           </provider>
@@ -124,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/pages/gallery.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/dog_training_tn_services/search_and_rescue.erb" />
         <option value="$PROJECT_DIR$/app/views/Users/show.html.erb" />
@@ -140,6 +140,7 @@
         <option value="$PROJECT_DIR$/app/views/pages/training_videos.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
       </list>
     </option>
   </component>
@@ -1158,13 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="629" selection-end="1062" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="3" selection-start="2293" selection-end="2293" vertical-scroll-proportion="0.0">
@@ -1217,6 +1211,13 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20121119200859_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="627" selection-end="627" vertical-scroll-proportion="0.050239235">
           <folding />
         </state>
       </provider>
