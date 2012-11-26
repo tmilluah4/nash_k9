@@ -14,7 +14,8 @@
 //= require jquery_ujs
 //= require_tree .
 //= require fancybox
-//= require_tree ./dogs
+//= require bottomlesspagination
+
 //= require random
 //= require sidebar
 //= require fancy

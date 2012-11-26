@@ -4,14 +4,15 @@ NashK9::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
-  resources :users
-
+     resources :users
+     resources :galleries
      get "pages/contact"
      get "pages/dogs"
      get "pages/training_videos"
      get "pages/gallery"
-     #root :to => 'home#index'
-  root :to =>  'pages#home'
+     get "pages/album"
+     match ':controller/:action/:id'
+     root :to =>  'pages#home'
      get "users/new"
      get "users/show"
 

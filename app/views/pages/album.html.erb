@@ -1,0 +1,22 @@
+<%= render :partial => 'layouts/header_child', :locals => { :show_links => true } %>
+
+<div class="main">
+  <%= render :partial => 'layouts/static_page_sidebar', :locals => { :show_links => true } %>
+  <div class="content">
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a.fancygallery').fancybox();
+        });
+    </script>
+    <img src="/assets/titles/Media.png">
+    <div class="the-image-album">
+      <% @album1.each do |album| %>
+          <div class="the-image-border-album" >
+            <a href="<%= album["src_big"] %>" rel="gallery" class="fancygallery">
+              <img src="<%= album["src"] %>" />
+            </a>
+          </div>
+      <% end %>
+    </div>
+  </div>
+</div>

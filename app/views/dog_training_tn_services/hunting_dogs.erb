@@ -3,7 +3,11 @@
 <div class="main">
   <%= render :partial => 'layouts/services_sidebar', :locals => { :show_links => true } %>
   <div class="content">
-
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a.fancygallery').fancybox();
+        });
+    </script>
     <img src="/assets/titles/Hunting.png">
 
     <div class="title">
@@ -12,10 +16,22 @@
 
 
     <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <a id="hunting" href="#">
-          <img  src="/assets/dog_training_services/hunting_dogs/hunting-dog-big-catch.jpg" class="no-video" />
-        </a>
+      <div class="image-border-right-hunting"  >
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Hunting Dogs!' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[0]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <p>

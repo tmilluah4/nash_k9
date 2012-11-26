@@ -10,46 +10,21 @@
         });
     </script>
     <img src="/assets/titles/Media.png">
-    <div class="gallery">
-      <table>
-        <tr>
-          <td>
-            <div class="image-border-gallery-left">
-              <% @album_graph_cover.each do |album| %>
-                <a href="<%= album["src_big"] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= album["src_big"] %>" class="no-video" />
+    <div class="the-image-gallery">
+        <% @albums[0]["fql_result_set"].each_with_index do |album, index| %>
+
+            <div class="the-image-border-gallery" >
+               <div class="count">
+                 <%= @albums[0]["fql_result_set"][index]["photo_count"]   %>
+               </div>
+                <a href="/pages/album/<%= @albums[0]['fql_result_set'][index]['aid'] %>" >
+                  <img src="<%= @albums[1]['fql_result_set'][index]['src_big'] %>"   />
                 </a>
-              <% end %>
-                <div style="display:none;">
-                  <% @album_graph.each do |album| %>
-                      <a class="fancygallery" rel="gallery" href="<%= album["src_big"] %>" >   </a>
-                  <% end %>
-                </div>
-                <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-            </div>
-          </td>
-          <td>
-            <div class="image-border-gallery-right">
-              <% @graph2_cover.each do |album| %>
-                  <a href="<%= album["src_big"] %>" rel="gallery" class="fancygallery">
-                    <img src="<%= album["src_big"] %>" class="no-video" />
-                  </a>
-              <% end %>
-              <div style="display:none;">
-                <% @graph2.each do |album| %>
-                    <a class="fancygallery" rel="gallery" href="<%= album["src_big"] %>" >   </a>
-                <% end %>
+              <div  class="photo">
+                <%= @albums[0]["fql_result_set"][index]["name"]   %>
               </div>
-              <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
             </div>
-          </td>
-        </tr>
-      </table>
-
-
+      <% end %>
     </div>
-
-
-
   </div>
 </div>

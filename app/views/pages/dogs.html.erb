@@ -4,7 +4,11 @@
 <div class="main">
   <%= render :partial => 'layouts/static_page_sidebar', :locals => { :show_links => true } %>
   <div class="content">
-
+  <script type="text/javascript">
+      $(document).ready(function() {
+          $('a.fancygallery').fancybox();
+      });
+  </script>
   <img src="/assets/titles/OurDogs.png">
 
     <div class="title">
@@ -23,9 +27,21 @@
             </tbody>
           </table>
         </div>
-        <a id="argo" href="#">
-            <img  src="/assets/dogs/argo-main.jpg"/>
-        </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'argo' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[0]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
         <div  class="videos-text">Videos:
           <a class="video"  title="" href="http://player.vimeo.com/video/34436397?fs=1&amp;autoplay=1">
@@ -66,9 +82,21 @@
             </tbody>
           </table>
         </div>
-        <a id="yogi" href="#">
-        <img  src="/assets/dogs/yogi-main.jpg"/>
-          </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Yogi' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[1]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
         <div  class="videos-text">Videos:
           <a class="video"  title="" href="http://player.vimeo.com/video/15490846?fs=1&amp;autoplay=1">
@@ -129,8 +157,21 @@
             </tbody>
           </table>
         </div>
-        <a id="bessi" href="#">
-        <img class="no-video" src="/assets/dogs/bessi-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Personal Protection Dog, Bessi' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[2]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -158,8 +199,21 @@
             </tbody>
           </table>
         </div>
-        <a id="peik" href="#">
-        <img  src="/assets/dogs/peik-main.jpg"/>       </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Police K-9 Peik' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[3]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
         <div  class="videos-text">Videos:
           <a class="video"  title="" href="http://player.vimeo.com/video/35155573?fs=1&amp;autoplay=1">
@@ -191,8 +245,21 @@
             </tbody>
           </table>
         </div>
-        <a id="ken" href="#">
-        <img class="no-video" src="/assets/dogs/ken-main.jpg"/> </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Personal Protection Dog, Ken' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[4]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -219,8 +286,21 @@
             </tbody>
           </table>
         </div>
-        <a id="maxine" href="#">
-        <img class="no-video" src="/assets/dogs/maxine-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Personal Protection Dog, Maxine' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[5]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -246,8 +326,21 @@
             </tbody>
           </table>
         </div>
-        <a id="asko" href="#">
-        <img class="no-video"  src="/assets/dogs/asko-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Search and Rescue, Asko' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[6]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -273,8 +366,21 @@
             </tbody>
           </table>
         </div>
-        <a id="anna" href="#">
-        <img class="no-video" src="/assets/dogs/anna-main.jpg"/>   </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Fall Highlights - Anna' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[7]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -327,8 +433,21 @@
             </tbody>
           </table>
         </div>
-        <a id="rocky" href="#">
-        <img class="no-video" src="/assets/dogs/rocky-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Fall highlights- GSD- Rocky' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[8]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -354,8 +473,21 @@
             </tbody>
           </table>
         </div>
-        <a id="uno" href="#">
-        <img class="no-video" src="/assets/dogs/uno-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Personal Protection Dog Uno' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[9]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -408,8 +540,21 @@
             </tbody>
           </table>
         </div>
-        <a id="ziva" href="#">
-        <img class="no-video" src="/assets/dogs/ziva-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Personal Protection Dog, Ziva' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[10]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -435,8 +580,21 @@
             </tbody>
           </table>
         </div>
-        <a id="tank" href="#">
-        <img class="no-video" src="/assets/dogs/tank-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Peanut Detector Tank' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[11]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -459,8 +617,21 @@
             </tbody>
           </table>
         </div>
-        <a id="tiko" href="#">
-        <img  src="/assets/dogs/tiko-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Personal Protection Dog, Tiko' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[12]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
         <div  class="videos-text">Videos:
           <a class="video"  title="" href="http://player.vimeo.com/video/12895546?fs=1&amp;autoplay=1">
@@ -506,8 +677,21 @@
             </tbody>
           </table>
         </div>
-        <a id="roxy" href="#">
-        <img  src="/assets/dogs/roxy-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Police K-9 Roxy' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[13]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
         <div  class="videos-text">Videos:
           <a class="video"  title="" href="http://player.vimeo.com/video/12879062?fs=1&amp;autoplay=1">
@@ -546,8 +730,21 @@
             </tbody>
           </table>
         </div>
-        <a id="carlo" href="#">
-        <img class="no-video" src="/assets/dogs/carlo-main.jpg"/>   </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'PSA and Protection Dog Carlo (John Grasta)' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[14]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -573,8 +770,21 @@
             </tbody>
           </table>
         </div>
-        <a id="jack" href="#">
-        <img  src="/assets/dogs/jack-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Personal Protection Dog Jack' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[15]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
         <div  class="videos-text">Videos:
           <a class="video"  title="" href="http://player.vimeo.com/video/12877441?fs=1&amp;autoplay=1">
@@ -610,8 +820,21 @@
             </tbody>
           </table>
         </div>
-        <a id="cowboy" href="#">
-        <img class="no-video" src="/assets/dogs/cowboy-main.jpg"/>  </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Personal Protection Dog Cowboy' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[16]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
@@ -640,8 +863,21 @@
             </tbody>
           </table>
         </div>
-        <a id="micah" href="#">
-        <img class="no-video" src="/assets/dogs/micah-main.jpg"/>    </a>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Our Wonderful Micah Compilation 2' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[17]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
         <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
       </div>
       <ul>
