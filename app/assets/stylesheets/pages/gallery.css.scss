@@ -1,52 +1,47 @@
 
-.the-image-gallery {
-  height: 100%;
-  min-height: 206px;
-  width: 650px;
-  display: inline-block;
+.the-gallery {
+  height:auto !important;
+  width: 640px;
 
-  border: 2px solid black;
+  .the-image-gallery:hover {
+    border-width: 5px 5px 25px 5px;
+    border-style: solid;
+    border-color: #B8A84F;
+    cursor: pointer;
+  }
 
-  .the-image-border-gallery {
-     border: 2px solid black;
-     float: left;
+  .the-image-gallery {
+    display: inline-block;
+    border-width: 5px 5px 25px 5px;
+    border-style: solid;
+    border-color:  #352F15;
+    background-size: 100%;
+    height: 120px;
+    padding: 4px;
+    width: 190px;
 
-     height: 100%;
-     display: inline-block;
 
-    img:hover {
-      border-width: 5px 5px 35px 5px;
-      border-style: solid;
-      border-color: #B8A84F;
-      width: 200px;
-      height: 190px;
-    }
-    .photo {
-      margin-top: -36px;
-      margin-left: 5px;
-      width: 190px;
-      line-height: 1em;
-      height:24px;
-    }
-    img {
-      border-width: 5px 5px 35px 5px;
-      border-style: solid;
-      border-color: #352F15;
-      width: 200px;
-      height: 190px;
-      display:inline-block;
-    }
-    .count {
+    .album-title {
+      margin-top: 125px;
+      width: 170px;
+      max-width: 190px;
+      height: 20px;
+      max-height:20px;
+      overflow: hidden;
       position: absolute;
-      margin-bottom:  -60px;
-      margin-left: 5px;
-       width: 25px;
+    }
+
+    .count {
+      background-color: #352F15;
+      width: 25px;
 
       padding: 3px;
-      background-color:  #352F15;
-      color: white;
+      margin-top: -5px;
+      position: absolute;
+      margin-left: -5px;
     }
   }
+
 }
 
 

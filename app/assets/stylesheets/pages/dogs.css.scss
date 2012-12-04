@@ -11,9 +11,8 @@
     float: right;
     padding-left: 2em;
     margin-top: 35px;
-    height: 250px;
+    height: 100%;
     width: 186px;
-
     background-color: #333;
     .count {
       position: absolute;
@@ -44,8 +43,7 @@
       border-width: 5px 5px 20px 5px;
       border-style: solid;
       border-color: #352F15;
-      width: 200px;
-      height: 200px;
+      width: 107%;
     }
 
      img:hover {
@@ -53,8 +51,7 @@
        border-width: 5px 5px 20px 5px;
        border-style: solid;
        border-color: #B8A84F;
-       width: 200px;
-       height: 200px;
+       width: 107%;
      }
     .sold {
       float:right;
@@ -89,9 +86,9 @@
     float: right;
     padding-left: 2em;
     margin-top: 35px;
-    height: 200px;
+    height: 100%;
     width: 186px;
-    background-color: #333;
+
     .count {
       position: absolute;
       margin-bottom:  -60px;
@@ -130,8 +127,7 @@
       border-width: 5px 5px 20px 5px;
       border-style: solid;
       border-color: #B8A84F;
-      width: 200px;
-      height: 200px;
+      width: 107%;
     }
     .photo {
       margin-top: -30px;
@@ -142,8 +138,8 @@
       border-width: 5px 5px 20px 5px;
       border-style: solid;
       border-color: #352F15;
-      width: 200px;
-      height: 200px;
+      width: 107%;
+
     }
   }
 

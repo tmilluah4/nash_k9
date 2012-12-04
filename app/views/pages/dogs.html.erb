@@ -68,7 +68,234 @@
     </div>
 
 
-    <div class="title">
+  <div class="title">
+    Taro, from Germany, but imported from Holland
+  </div>
+  <div class="right-dogs">
+
+
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">$10,000</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Taro!' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[0]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Certified Police dog in narcotics</span></li>
+      <li class="parent"><span class="text">Full Obedience  </span></li>
+      <li class="child"><span class="text">Nice, Clear head </span></li>
+      <li class="child"><span class="text">X-rays on hips </span></li>
+      <li class="child"><span class="text">Will serve as a good dual purpose Narcotics dog or great personal protection dog </span></li>
+      <li class="child"><span class="text">For Police Departments, we will provide a handler class included in the price</span></li>
+
+    </ul>
+  </div>
+
+
+  <div class="title">
+    Roxy vom Neerland, FEMA FSA & CE (Type II,I) Ready, DCRS K-9
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Police K-9 Roxy' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[13]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+      <div  class="videos-text">Videos:
+        <a class="video"  title="" href="http://player.vimeo.com/video/12879062?fs=1&amp;autoplay=1">
+          1,
+        </a>
+        <a class="video"  title="" href="http://player.vimeo.com/video/12879021?fs=1&amp;autoplay=1">
+          2,
+        </a>
+        <a class="video"  title="" href="http://player.vimeo.com/video/35486063?fs=1&amp;autoplay=1">
+          3
+        </a>
+      </div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">S.W.A.T. Certification Complete</span></li>
+      <li class="parent"><span class="text">Dam: Xena van Neerland,Rayl, KNPV</span></li>
+      <li class="parent"><span class="text">Sire: Joey haus Janssen,Rayl, KNPV</span></li>
+      <li class="parent"><span class="text">Roxy is a Urban Search and Rescue Dog-US&R (Rubble- live find) for the Davidson County Rescue Squad. She is ready for her FEMA Type I test (CE) now and has been training on water and land cadaver. Very ball crazy, excellent hunt drives, very protective
+        but also capable of being a light switch. Extremely nimble, quick, and has high stamina, with full grips. Obedience to perfection, calm and steady nerves, nothing phases her. She’s a working dog on rubble piles that are very unstable, and her manueverability is impeccable. Very, very high drives, excellent focus and coordination. She can catch a ball launched in the air 30ft without it even bouncing. Great hips, solid dentals, good health. For Disaster Rescue, she has great directionals, very strong victim hunt drives, and listens well. Demonstrations are available. Please see all four videos of Roxy working.
+        </span></li>
+    </ul>
+  </div>
+
+
+  <div class="title">
+    Peik vom Dichterviertel, BH- AVAILABLE FOR STUD ONLY
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Police K-9 Peik' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[3]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+      <div  class="videos-text">Videos:
+        <a class="video"  title="" href="http://player.vimeo.com/video/35155573?fs=1&amp;autoplay=1">
+          1
+        </a>
+      </div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Breed: German Shepherd  </span></li>
+      <li class="parent"><span class="text">Sire: Frisko von der Altstadener Mühle, VPG III, IPO III, FH I, 2 x LGA, 3 x FCI  </span></li>
+      <li class="parent"><span class="text">Dam: Manou vom Oberhausener-Kreuz, SCHIII </span></li>
+      <li class="parent"><span class="text">JDate of Birth: 11/18/2007       </span></li>
+      <li class="parent"><span class="text">Very intense, great protection, great obedience, very hard grips, will REALLY bite (not just sport). Extremely athletic, good stature, and powerful. “Ike” [Piek] is available for scrutinized stud to approved females. Breeders: we will not “mass” breed Ike for his bloodlines. You will have to come with paperwork, health records, and a serious offer to breed with this dog.  </span></li>
+    </ul>
+  </div>
+
+
+  <div class="title">
+    Bessi von der Alten Schmiede, BH, SCH III, IPO III, AD, FH1, KKL1
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Personal Protection Dog, Bessi' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[2]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">German Shepherd, Hips, Eyes, and Elbows Certified, DNA tests conducted</span></li>
+      <li class="parent"><span class="text"> Two of Bessi’s pups have competed in the Bundessieger </span></li>
+      <li class="parent"><span class="text"> Super obedience and high drives     </span></li>
+      <li class="parent"><span class="text"> High 90′s in each, 5 times completing SCH III </span></li>
+      <li class="parent"><span class="text"> Very Social with people and other dogs  </span></li>
+      <li class="parent"><span class="text"> Explosive bites with fast recharge   </span></li>
+    </ul>
+  </div>
+
+
+  <div class="title">
+    Cairo, Personal Protection Dog, CGC, DD, WDE, CAL2, PSA PDC
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Personal Protection dog Cairo' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[2]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Doberman Pinscher</span></li>
+      <li class="parent"><span class="text"> Date of Birth: June 25, 2008 </span></li>
+      <li class="parent"><span class="text">Titled name "Jaburi Cairo"    </span></li>
+      <li class="parent"><span class="text"> Protection Sport Association PDC Certificate</span></li>
+    </ul>
+  </div>
+
+
+  <div class="title">
       Yogi von Stutts
     </div>
     <div class="right-dogs">
@@ -116,119 +343,46 @@
     </div>
 
 
-    <div class="title">
-      Aska vom Ketscher Wald, KKL1, BH, SCHIII
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <a id="aska" href="#">
-        <img class="no-video" src="/assets/dogs/aska-main.jpg"/>    </a>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+  <div class="title">
+    Tango ot Vitosha, CGC, BN,  Personal Protection Dog (available for stud)
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
       </div>
-      <ul>
-        <li class="parent"><span class="text">Breed: German Shepherd</span></li>
-        <li class="parent"><span class="text">Sire: Tasso vom Ketcher Wald, SCHII </span></li>
-        <li class="parent"><span class="text">Dam: Enchi vom Karlmitblick, SCHIII </span></li>
-        <li class="parent"><span class="text">Date of Birth: September 1, 2004  </span></li>
-      </ul>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Tango' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[2]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
     </div>
+    <ul>
+      <li class="parent"><span class="text">Breed: Belgian Malinois</span></li>
+      <li class="parent"><span class="text"> Date of Birth: September 5, 2007 </span></li>
+      <li class="parent"><span class="text">Sire: Falcon Regulus, SCHIII, IPOIII    </span></li>
+      <li class="parent"><span class="text"> Dam:Wiitanen's Lola</span></li>
+      <li class="parent"><span class="text"> Very fast, clear headed, and civil biter. Very athletic, agile, and intense. An excellent candidate for stud.</span></li>
+    </ul>
+  </div>
 
-
-    <div class="title">
-      Bessi von der Alten Schmiede, BH, SCH III, IPO III, AD, FH1, KKL1
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Personal Protection Dog, Bessi' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[2]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">German Shepherd, Hips, Eyes, and Elbows Certified, DNA tests conducted</span></li>
-        <li class="parent"><span class="text"> Two of Bessi’s pups have competed in the Bundessieger </span></li>
-        <li class="parent"><span class="text"> Super obedience and high drives     </span></li>
-        <li class="parent"><span class="text"> High 90′s in each, 5 times completing SCH III </span></li>
-        <li class="parent"><span class="text"> Very Social with people and other dogs  </span></li>
-        <li class="parent"><span class="text"> Explosive bites with fast recharge   </span></li>
-      </ul>
-    </div>
-
-
-    <div class="title">
-      Peik vom Dichterviertel, BH- AVAILABLE FOR STUD ONLY
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Police K-9 Peik' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[3]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-        <div  class="videos-text">Videos:
-          <a class="video"  title="" href="http://player.vimeo.com/video/35155573?fs=1&amp;autoplay=1">
-            1
-          </a>
-        </div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">Breed: German Shepherd  </span></li>
-        <li class="parent"><span class="text">Sire: Frisko von der Altstadener Mühle, VPG III, IPO III, FH I, 2 x LGA, 3 x FCI  </span></li>
-        <li class="parent"><span class="text">Dam: Manou vom Oberhausener-Kreuz, SCHIII </span></li>
-        <li class="parent"><span class="text">JDate of Birth: 11/18/2007       </span></li>
-        <li class="parent"><span class="text">Very intense, great protection, great obedience, very hard grips, will REALLY bite (not just sport). Extremely athletic, good stature, and powerful. “Ike” [Piek] is available for scrutinized stud to approved females. Breeders: we will not “mass” breed Ike for his bloodlines. You will have to come with paperwork, health records, and a serious offer to breed with this dog.  </span></li>
-      </ul>
-    </div>
 
 
     <div class="title">
@@ -271,6 +425,44 @@
       </ul>
     </div>
 
+  <div class="title">
+    Micah Vom Hemyarihaus, Nashville K-9 Demonstration Dog
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Our Wonderful Micah Compilation 2' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[17]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Micah has presented 74 K-9 Demonstrations</span></li>
+      <li class="parent"><span class="text">These Demonstrations have been for Schutzhund, Police K-9, and Family Protection</span></li>
+      <li class="parent"><span class="text">He is social with Children, Adults, and other Dogs</span></li>
+      <li class="parent"><span class="text">Born 08/04/2000</span></li>
+    </ul>
+  </div>
 
     <div class="title">
       Maxine vom Smaragdwald, BH, SCH III, AD
@@ -312,7 +504,56 @@
     </div>
 
 
-    <div class="title">
+  <div class="title">
+    Jack for Sale (Atlas vom Neville), CGC, Narcotics Detection (Drug Dog)
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Personal Protection Dog Jack' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[15]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+      <div  class="videos-text">Videos:
+        <a class="video"  title="" href="http://player.vimeo.com/video/12877441?fs=1&amp;autoplay=1">
+          1
+        </a>,
+        <a class="video"  title="" href="http://player.vimeo.com/video/12877190?fs=1&amp;autoplay=1">
+          2
+        </a>
+      </div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Belgian Malinios Shepherd</span></li>
+      <li class="parent"><span class="text">Born 12/05</span></li>
+      <li class="parent"><span class="text">Super obedience, Ready for a BH</span></li>
+      <li class="parent"><span class="text">Started on Narcotics Detection and Started on Cadaver</span></li>
+      <li class="parent"><span class="text">Very Social with people; Cannot be in home with a small dog/small pet</span></li>
+      <li class="parent"><span class="text">High Toy and Hunt Drive, loves searching</span></li>
+    </ul>
+  </div>
+
+  <div class="title">
       Asko Vom Brockelstein, BH, SCH III, AD, KKL1
     </div>
     <div class="right-dogs">
@@ -351,8 +592,231 @@
     </div>
 
 
+  <div class="title">
+    Cowboy de Atlawor, Explosives Detection
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Personal Protection Dog Cowboy' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[16]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Belgian Malinios Shepherd</span></li>
+      <li class="parent"><span class="text">Born 9/06</span></li>
+      <li class="parent"><span class="text">Super obedience, Ready for a BH</span></li>
+      <li class="parent"><span class="text">Started on Explosives</span></li>
+      <li class="parent"><span class="text">Very crazy hunt drive; will search forever</span></li>
+      <li class="parent"><span class="text">Super social, loves children and other dogs</span></li>
+      <li class="parent"><span class="text">Very clear head, stable nerves</span></li>
+    </ul>
+  </div>
 
-    <div class="title">
+
+
+  <div class="title">
+    Tiko, BRII
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Personal Protection Dog, Tiko' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[12]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+      <div  class="videos-text">Videos:
+        <a class="video"  title="" href="http://player.vimeo.com/video/12895546?fs=1&amp;autoplay=1">
+          1,
+        </a>
+        <a class="video"  title="" href="http://player.vimeo.com/video/12895557?fs=1&amp;autoplay=1">
+          2,
+        </a>
+        <a class="video"  title="" href="http://player.vimeo.com/video/12895569?fs=1&amp;autoplay=1">
+          3,
+        </a>
+        <a class="video"  title="" href="http://player.vimeo.com/video/12895482?fs=1&amp;autoplay=1">
+          4,
+        </a>
+        <a class="video"  title="" href="http://player.vimeo.com/video/12895434?fs=1&amp;autoplay=1">
+          5
+        </a>
+      </div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">He has impeccable obedience and enjoys being worked! He makes high walls and jumps look easy. His sit, down, and stand are EXCELLENT.</span></li>
+      <li class="parent"><span class="text">He has a very high play drive, an excellent bite, good hunt, and is friendly with children, adults, and other dogs.</span></li>
+      <li class="parent"><span class="text">Tiko is trained completely for the Belgian Ring (Level 2). He can be cross trained for whatever you’d like.</span></li>
+      <li class="parent"><span class="text">He has already entered some Belgian Ring trials.</span></li>
+      <li class="parent"><span class="text">Hips, elbows and spine are good.</span></li>
+      <li class="parent"><span class="text">We will be selling him as a personal protection dog, or S.W.A.T. Team dog. He’s great with kids, ages 4 and up and also well mannered around cats.</span></li>
+      <li class="parent"><span class="text">He will NOT go to a police department for regular patrol work. Police SWAT K-9 Handlers may call us direct. If you are not a SWAT team or do not have a SWAT team, please call us for another type of dog.</span></li>
+    </ul>
+  </div>
+
+
+  <div class="title">
+    Carlo Van Neerland, PSA PDC
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'PSA and Protection Dog Carlo (John Grasta)' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[14]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Only Dutch Malinois with KNPV-PH1 Sire and Dam in the U.S.</span></li>
+      <li class="parent"><span class="text">Pedigree dates back to 1913</span></li>
+      <li class="parent"><span class="text">bloedlijnen.nl</span></li>
+      <li class="parent"><span class="text">Available for Stud Only</span></li>
+    </ul>
+  </div>
+
+
+  <div class="title">
+    Ziva vom Westcowdenhaus
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Personal Protection Dog, Ziva' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[10]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Breed:German Shepherd</span></li>
+      <li class="parent"><span class="text">Sire: Ken vom Glockeneck, KKL1, BH, SCHIII, AD</span></li>
+      <li class="parent"><span class="text">Dam: Bessi von der Alten Schmiede, KKL1, BH, SCHIII, IPOIII, AD, FHI</span></li>
+      <li class="parent"><span class="text">Date of Birth: October 2, 2010</span></li>
+    </ul>
+  </div>
+
+
+  <div class="title">
+    Rocky vom Westcowdenhaus
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Fall highlights- GSD- Rocky' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[8]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Breed: German Shepherd</span></li>
+      <li class="parent"><span class="text">Sire: Ken vom Glockeneck, KKL1, BH, SCHIII, AD</span></li>
+      <li class="parent"><span class="text">Dam: Bessi von der Alten Schmiede, KKL1, BH, SCHIII, IPOIII, AD, FHI</span></li>
+      <li class="parent"><span class="text">Date of Birth: October 2, 2010</span></li>
+    </ul>
+  </div>
+
+
+  <div class="title">
       Anna vom Westcowdenhaus
     </div>
     <div class="right-dogs">
@@ -392,74 +856,34 @@
     </div>
 
 
-    <div class="title">
-      Kilo vom Westcowdenhaus
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <a id="kilo" href="#">
-        <img class="no-video" src="/assets/dogs/kilo-main.jpg"/>  </a>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+  <div class="title">
+    Leo vom Westcowdenhaus
+  </div>
+  <div class="right-dogs">
+    <div class="image-border-right-no-video">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
       </div>
-      <ul>
-        <li class="parent"><span class="text">Breed: German Shepherd </span></li>
-        <li class="parent"><span class="text">Sire: Ken vom Glockeneck, KKL1, BH, SCHIII, AD </span></li>
-        <li class="parent"><span class="text">Dam: Bessi von der Alten Schmiede, KKL1, BH, SCHIII, IPOIII, AD, FHI</span></li>
-        <li class="parent"><span class="text">Date of Birth: October 2, 2010</span></li>
-      </ul>
+      <a id="leo" href="#">
+        <img class="no-video" src="/assets/dogs/leo-main.jpg"/>  </a>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
     </div>
+    <ul>
+      <li class="parent"><span class="text">Breed: German Shepherd</span></li>
+      <li class="parent"><span class="text">Sire: Ken vom Glockeneck, KKL1, BH, SCHIII, AD</span></li>
+      <li class="parent"><span class="text">Dam: Bessi von der Alten Schmiede, KKL1, BH, SCHIII, IPOIII, AD, FHI</span></li>
+      <li class="parent"><span class="text">Date of Birth: October 2, 2010</span></li>
+    </ul>
+  </div>
 
 
-    <div class="title">
-      Rocky vom Westcowdenhaus
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Fall highlights- GSD- Rocky' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[8]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">Breed: German Shepherd</span></li>
-        <li class="parent"><span class="text">Sire: Ken vom Glockeneck, KKL1, BH, SCHIII, AD</span></li>
-        <li class="parent"><span class="text">Dam: Bessi von der Alten Schmiede, KKL1, BH, SCHIII, IPOIII, AD, FHI</span></li>
-        <li class="parent"><span class="text">Date of Birth: October 2, 2010</span></li>
-      </ul>
-    </div>
-
-
-    <div class="title">
+  <div class="title">
       Uno vom Westcowdenhaus
     </div>
     <div class="right-dogs">
@@ -499,72 +923,6 @@
     </div>
 
 
-    <div class="title">
-      Leo vom Westcowdenhaus
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <a id="leo" href="#">
-        <img class="no-video" src="/assets/dogs/leo-main.jpg"/>  </a>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">Breed: German Shepherd</span></li>
-        <li class="parent"><span class="text">Sire: Ken vom Glockeneck, KKL1, BH, SCHIII, AD</span></li>
-        <li class="parent"><span class="text">Dam: Bessi von der Alten Schmiede, KKL1, BH, SCHIII, IPOIII, AD, FHI</span></li>
-        <li class="parent"><span class="text">Date of Birth: October 2, 2010</span></li>
-      </ul>
-    </div>
-
-
-    <div class="title">
-      Ziva vom Westcowdenhaus
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Personal Protection Dog, Ziva' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[10]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">Breed:German Shepherd</span></li>
-        <li class="parent"><span class="text">Sire: Ken vom Glockeneck, KKL1, BH, SCHIII, AD</span></li>
-        <li class="parent"><span class="text">Dam: Bessi von der Alten Schmiede, KKL1, BH, SCHIII, IPOIII, AD, FHI</span></li>
-        <li class="parent"><span class="text">Date of Birth: October 2, 2010</span></li>
-      </ul>
-    </div>
-
 
     <div class="title">
       Tank, Peanut Detection
@@ -603,290 +961,8 @@
     </div>
 
 
-    <div class="title">
-      Tiko, BRII
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Personal Protection Dog, Tiko' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[12]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-        <div  class="videos-text">Videos:
-          <a class="video"  title="" href="http://player.vimeo.com/video/12895546?fs=1&amp;autoplay=1">
-            1,
-          </a>
-          <a class="video"  title="" href="http://player.vimeo.com/video/12895557?fs=1&amp;autoplay=1">
-            2,
-          </a>
-          <a class="video"  title="" href="http://player.vimeo.com/video/12895569?fs=1&amp;autoplay=1">
-            3,
-          </a>
-          <a class="video"  title="" href="http://player.vimeo.com/video/12895482?fs=1&amp;autoplay=1">
-            4,
-          </a>
-          <a class="video"  title="" href="http://player.vimeo.com/video/12895434?fs=1&amp;autoplay=1">
-            5
-          </a>
-        </div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">He has impeccable obedience and enjoys being worked! He makes high walls and jumps look easy. His sit, down, and stand are EXCELLENT.</span></li>
-        <li class="parent"><span class="text">He has a very high play drive, an excellent bite, good hunt, and is friendly with children, adults, and other dogs.</span></li>
-        <li class="parent"><span class="text">Tiko is trained completely for the Belgian Ring (Level 2). He can be cross trained for whatever you’d like.</span></li>
-        <li class="parent"><span class="text">He has already entered some Belgian Ring trials.</span></li>
-        <li class="parent"><span class="text">Hips, elbows and spine are good.</span></li>
-        <li class="parent"><span class="text">We will be selling him as a personal protection dog, or S.W.A.T. Team dog. He’s great with kids, ages 4 and up and also well mannered around cats.</span></li>
-        <li class="parent"><span class="text">He will NOT go to a police department for regular patrol work. Police SWAT K-9 Handlers may call us direct. If you are not a SWAT team or do not have a SWAT team, please call us for another type of dog.</span></li>
-      </ul>
-    </div>
 
 
-    <div class="title">
-      Roxy vom Neerland, FEMA FSA & CE (Type II,I) Ready, DCRS K-9
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Police K-9 Roxy' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[13]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-        <div  class="videos-text">Videos:
-          <a class="video"  title="" href="http://player.vimeo.com/video/12879062?fs=1&amp;autoplay=1">
-            1,
-          </a>
-          <a class="video"  title="" href="http://player.vimeo.com/video/12879021?fs=1&amp;autoplay=1">
-            2,
-          </a>
-          <a class="video"  title="" href="http://player.vimeo.com/video/35486063?fs=1&amp;autoplay=1">
-            3
-          </a>
-        </div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">S.W.A.T. Certification Complete</span></li>
-        <li class="parent"><span class="text">Dam: Xena van Neerland,Rayl, KNPV</span></li>
-        <li class="parent"><span class="text">Sire: Joey haus Janssen,Rayl, KNPV</span></li>
-        <li class="parent"><span class="text">Roxy is a Urban Search and Rescue Dog-US&R (Rubble- live find) for the Davidson County Rescue Squad. She is ready for her FEMA Type I test (CE) now and has been training on water and land cadaver. Very ball crazy, excellent hunt drives, very protective
-        but also capable of being a light switch. Extremely nimble, quick, and has high stamina, with full grips. Obedience to perfection, calm and steady nerves, nothing phases her. She’s a working dog on rubble piles that are very unstable, and her manueverability is impeccable. Very, very high drives, excellent focus and coordination. She can catch a ball launched in the air 30ft without it even bouncing. Great hips, solid dentals, good health. For Disaster Rescue, she has great directionals, very strong victim hunt drives, and listens well. Demonstrations are available. Please see all four videos of Roxy working.
-        </span></li>
-      </ul>
-    </div>
-
-
-    <div class="title">
-      Carlo Van Neerland, PSA PDC
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'PSA and Protection Dog Carlo (John Grasta)' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[14]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">Only Dutch Malinois with KNPV-PH1 Sire and Dam in the U.S.</span></li>
-        <li class="parent"><span class="text">Pedigree dates back to 1913</span></li>
-        <li class="parent"><span class="text">bloedlijnen.nl</span></li>
-        <li class="parent"><span class="text">Available for Stud Only</span></li>
-      </ul>
-    </div>
-
-
-    <div class="title">
-      Jack for Sale (Atlas vom Neville), CGC, Narcotics Detection (Drug Dog)
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Personal Protection Dog Jack' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[15]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-        <div  class="videos-text">Videos:
-          <a class="video"  title="" href="http://player.vimeo.com/video/12877441?fs=1&amp;autoplay=1">
-            1
-          </a>,
-          <a class="video"  title="" href="http://player.vimeo.com/video/12877190?fs=1&amp;autoplay=1">
-            2
-          </a>
-        </div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">Belgian Malinios Shepherd</span></li>
-        <li class="parent"><span class="text">Born 12/05</span></li>
-        <li class="parent"><span class="text">Super obedience, Ready for a BH</span></li>
-        <li class="parent"><span class="text">Started on Narcotics Detection and Started on Cadaver</span></li>
-        <li class="parent"><span class="text">Very Social with people; Cannot be in home with a small dog/small pet</span></li>
-        <li class="parent"><span class="text">High Toy and Hunt Drive, loves searching</span></li>
-      </ul>
-    </div>
-
-
-    <div class="title">
-      Cowboy de Atlawor, Explosives Detection
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Personal Protection Dog Cowboy' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[16]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">Belgian Malinios Shepherd</span></li>
-        <li class="parent"><span class="text">Born 9/06</span></li>
-        <li class="parent"><span class="text">Super obedience, Ready for a BH</span></li>
-        <li class="parent"><span class="text">Started on Explosives</span></li>
-        <li class="parent"><span class="text">Very crazy hunt drive; will search forever</span></li>
-        <li class="parent"><span class="text">Super social, loves children and other dogs</span></li>
-        <li class="parent"><span class="text">Very clear head, stable nerves</span></li>
-      </ul>
-    </div>
-
-
-    <div class="title">
-      Micah Vom Hemyarihaus, Nashville K-9 Demonstration Dog
-    </div>
-    <div class="right-dogs">
-      <div class="image-border-right-no-video">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Our Wonderful Micah Compilation 2' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[17]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">Micah has presented 74 K-9 Demonstrations</span></li>
-        <li class="parent"><span class="text">These Demonstrations have been for Schutzhund, Police K-9, and Family Protection</span></li>
-        <li class="parent"><span class="text">He is social with Children, Adults, and other Dogs</span></li>
-        <li class="parent"><span class="text">Born 08/04/2000</span></li>
-      </ul>
-    </div>
 
 
     <div class="title">
