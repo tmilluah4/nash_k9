@@ -51,23 +51,15 @@
   width: 640px;
 
   .the-image-border-album:hover {
-    border-width: 5px;
-    border-style: solid;
-    border-color: #B8A84F;
-    width: 90%;
+
     cursor: pointer;
   }
 
   .the-image-border-album {
     display: inline-block;
-    border-width: 5px;
-    border-style: solid;
-    border-color:  #352F15;
     background-size: 100%;
-    width: 90%;
 
+    padding: 4px;
 
   }
 }
-
-
