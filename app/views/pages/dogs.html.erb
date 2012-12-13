@@ -32,12 +32,12 @@
                 <div class="count">
                   <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
                 </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="argo" class="fancygallery">
                   <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
                 </a>
                 <div>
                   <% @dogs[0]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                      <a   href="<%= dog["src_big"]  %>"  rel="argo" class="fancygallery">   </a>
                   <% end %>
                 </div>
             <% end %>
@@ -85,16 +85,16 @@
         </table>
       </div>
       <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-          <% if album['name'].include? 'Taro!' %>
+          <% if album['name'].include? 'Taro' %>
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="taro" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
-                <% @dogs[0]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% @dogs[18]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="taro" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -133,12 +133,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Roxy" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[13]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Roxy" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -186,12 +186,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Peik" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[3]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Peik" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -232,12 +232,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Bessi" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[2]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Bessi" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -274,12 +274,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Cairo" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
-                <% @dogs[2]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% @dogs[19]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Cairo" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -314,12 +314,12 @@
                 <div class="count">
                   <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
                 </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Yogi" class="fancygallery">
                   <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
                 </a>
                 <div>
                   <% @dogs[1]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                      <a   href="<%= dog["src_big"]  %>"  rel="Yogi" class="fancygallery">   </a>
                   <% end %>
                 </div>
             <% end %>
@@ -362,12 +362,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Tango" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
-                <% @dogs[2]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                <% @dogs[20]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Tango" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -404,12 +404,12 @@
                 <div class="count">
                   <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
                 </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Ken" class="fancygallery">
                   <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
                 </a>
                 <div>
                   <% @dogs[4]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                      <a   href="<%= dog["src_big"]  %>"  rel="Ken" class="fancygallery">   </a>
                   <% end %>
                 </div>
             <% end %>
@@ -444,12 +444,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Micah" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[17]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Micah" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -483,12 +483,12 @@
                 <div class="count">
                   <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
                 </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Maxine" class="fancygallery">
                   <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
                 </a>
                 <div>
                   <% @dogs[5]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                      <a   href="<%= dog["src_big"]  %>"  rel="Maxine" class="fancygallery">   </a>
                   <% end %>
                 </div>
             <% end %>
@@ -523,12 +523,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Jack" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[15]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Jack" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -572,12 +572,12 @@
                 <div class="count">
                   <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
                 </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Asko" class="fancygallery">
                   <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
                 </a>
                 <div>
                   <% @dogs[6]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                      <a   href="<%= dog["src_big"]  %>"  rel="Asko" class="fancygallery">   </a>
                   <% end %>
                 </div>
             <% end %>
@@ -611,12 +611,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Cowboy" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[16]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Cowboy" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -655,12 +655,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Tiko" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[12]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Tiko" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -715,12 +715,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Carlo" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[14]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Carlo" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -755,12 +755,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Ziva" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[10]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Ziva" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -795,12 +795,12 @@
               <div class="count">
                 <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
               </div>
-              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Rocky" class="fancygallery">
                 <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
               </a>
               <div>
                 <% @dogs[8]["fql_result_set"].each do |dog| %>
-                    <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Rocky" class="fancygallery">   </a>
                 <% end %>
               </div>
           <% end %>
@@ -835,12 +835,12 @@
                 <div class="count">
                   <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
                 </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Anna" class="fancygallery">
                   <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
                 </a>
                 <div>
                   <% @dogs[7]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                      <a   href="<%= dog["src_big"]  %>"  rel="Anna" class="fancygallery">   </a>
                   <% end %>
                 </div>
             <% end %>
@@ -902,12 +902,12 @@
                 <div class="count">
                   <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
                 </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Uno" class="fancygallery">
                   <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
                 </a>
                 <div>
                   <% @dogs[9]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                      <a   href="<%= dog["src_big"]  %>"  rel="Uno" class="fancygallery">   </a>
                   <% end %>
                 </div>
             <% end %>
@@ -943,12 +943,12 @@
                 <div class="count">
                   <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
                 </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="gallery" class="fancygallery">
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Tank" class="fancygallery">
                   <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
                 </a>
                 <div>
                   <% @dogs[11]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="gallery" class="fancygallery">   </a>
+                      <a   href="<%= dog["src_big"]  %>"  rel="Tank" class="fancygallery">   </a>
                   <% end %>
                 </div>
             <% end %>
