@@ -2,756 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="272e8cc7-35c1-42f3-9159-07fea83001c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/1stPlace.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/AboutUsSelected.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/AliCop.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/ArmGrab2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/ArmGrab3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/ArmGrab3pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/ArmGrab4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/Becky24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/BoSehp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/ContactUs.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/ContactUsSelected.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/Cost.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/CostSelected.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/D1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC00779.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC00780.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC00781.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC00782.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC00783.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DSC00784.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/Dob&amp;Shep.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/DobAttach.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/covers/halloween.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/covers/puppies-police-training.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/aussie1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/aussie2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/bichon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/bichon2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/boxer1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/boxer2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/boxer3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/chihuahua.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/chihuahua2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/chihuahua3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/chihuahua4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/cocker-spaniel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/cocker-spaniel2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/cocker-spaniel3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/doberman1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/doberman2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/english-shepherd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/german-shepherd1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/german-shepherd2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/german-shepherd3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/german-shepherd4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/german5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/golden-retreiver.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/gsp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/hunting1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/hunting2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/lab1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/lab2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/lab3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mastiff1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mastiff2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mastiff3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mix9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mountain-dog-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/mountain-dog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/moutain-dog-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/pit-bull.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/pit-bull2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/pit-bull3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/pit-bull4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/poodle1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/poodle2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/rhodesian1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/rhodesian2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/rhodesian3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/rhodesian4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/rottweiler.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/rottweiler2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/rottweiler3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/rottweiler4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/schnauzer1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/schnauzer2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_aussie1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_aussie2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_bichon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_bichon2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_boxer1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_boxer2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_boxer3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_chihuahua.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_chihuahua2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_chihuahua3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_chihuahua4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_cocker-spaniel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_cocker-spaniel2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_cocker-spaniel3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_doberman1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_doberman2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_english-shepherd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_german-shepherd1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_german-shepherd2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_german-shepherd3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_german-shepherd4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_german5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_golden-retreiver.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_gsp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_hunting1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_hunting2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_lab1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_lab2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_lab3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mastiff1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mastiff2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mastiff3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mix9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mountain-dog-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_mountain-dog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_moutain-dog-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_pit-bull.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_pit-bull2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_pit-bull3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_pit-bull4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_poodle1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_poodle2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_rhodesian1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_rhodesian2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_rhodesian3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_rhodesian4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_rottweiler.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_rottweiler2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_rottweiler3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_rottweiler4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_schnauzer1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_schnauzer2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_wheaton1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_wheaton2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/thumbs/thumbs_yorkie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/wheaton1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/wheaton2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dog-training-mix/yorkie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-carlo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-carlo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-carlo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-carlo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-carlo-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-carlo-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-carlo-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-carlo-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-cowboy-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-cowboy-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-cowboy-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-cowboy-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-cowboy-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-cowboy-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-cowboy-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-cowboy-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-elo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-elo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-elo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-elo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-elo-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-elo-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-elo-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-elo-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-jack-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-jack-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-jack-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-jack-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-jack-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-jack-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-jack-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-jack-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-roxy-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-tiko-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-tiko-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-tiko-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-tiko-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-tiko-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/belgian-malinois-tiko-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-carlo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-carlo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-carlo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-carlo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-carlo-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-carlo-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-carlo-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-carlo-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-cowboy-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-cowboy-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-cowboy-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-cowboy-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-cowboy-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-cowboy-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-cowboy-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-cowboy-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-elo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-elo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-elo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-elo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-elo-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-elo-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-elo-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-elo-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-jack-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-jack-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-jack-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-jack-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-jack-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-jack-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-jack-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-jack-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-roxy-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-tiko-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-tiko-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-tiko-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-tiko-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-tiko-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/belgian malinois/thumbs/thumbs_belgian-malinois-tiko-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/cane-corso-yogi-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/cane-corso-yogi-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/cane-corso-yogi-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/cane-corso-yogi-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/cane-corso-yogi-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/cane-corso-yogi-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/cane-corso-yogi-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/cane-corso-yogi-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/cane-corso-yogi-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/cane corso/uno18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/a9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-pinscher-micah-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-pinscher-micah-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-pinscher-micah-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-pinscher-micah-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-pinscher-micah-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-pinscher-micah-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-pinscher-micah-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-pinscher-micah-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-scooby-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-scooby-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/doberman-scooby-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/image001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_a9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-pinscher-micah-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-pinscher-micah-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-pinscher-micah-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-pinscher-micah-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-pinscher-micah-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-pinscher-micah-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-pinscher-micah-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-pinscher-micah-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-scooby-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-scooby-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_doberman-scooby-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_guard-dogs-micah.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/doberman pinscher/thumbs/thumbs_image001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/Cowboy1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/Ken4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/asko.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/bessi1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/carlo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/elo1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/jack5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/11.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/12.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/ken/33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/max1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/micah.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/roxy2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/scooby.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/tank.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/full/tiko.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/German-Shepherd-Bessi-Bite-Work.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/German-Shepherd-Bessi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-anna-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-anna-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-anna-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-anna-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-aska-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-aska-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-aska-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-aska-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-aska-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-aska-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-asko-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-bessi-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-bessi-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-bessi-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-bessi-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-bessi-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-bessi-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-bessi-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-bessi-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-bessi-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-11.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-12.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ken-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-kilo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-kilo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-kilo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-kilo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-kilo-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-kilo-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-kilo-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-leo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-leo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-maxine-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-peanut-detection-tank-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-peanut-detection-tank-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-peanut-detection-tank-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-peanut-detection-tank-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-peanut-detection-tank-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-peanut-detection-tank-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-peanut-detection-tank-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-rocky-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-rocky-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-rocky-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-rocky-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-rocky-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-rocky-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-rocky-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-rocky-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-rocky-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-tank-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-tank-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-tank-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-tank-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-tank-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-tank-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-tank-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-tank-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-uno-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-uno-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-uno-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-uno-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-uno-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ziva-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ziva-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/german-shepherd-ziva-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_German-Shepherd-Bessi-Bite-Work.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_German-Shepherd-Bessi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-anna-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-anna-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-anna-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-anna-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-aska-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-aska-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-aska-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-aska-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-aska-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-aska-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-asko-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-bessi-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-bessi-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-bessi-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-bessi-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-bessi-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-bessi-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-bessi-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-bessi-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-bessi-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-11.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-12.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ken-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-kilo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-kilo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-kilo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-kilo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-kilo-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-kilo-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-kilo-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-leo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-leo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-maxine-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-peanut-detection-tank-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-peanut-detection-tank-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-peanut-detection-tank-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-peanut-detection-tank-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-peanut-detection-tank-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-peanut-detection-tank-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-peanut-detection-tank-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-rocky-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-rocky-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-rocky-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-rocky-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-rocky-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-rocky-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-rocky-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-rocky-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-rocky-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-tank-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-tank-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-tank-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-tank-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-tank-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-tank-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-tank-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-tank-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-uno-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-uno-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-uno-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-uno-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-uno-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ziva-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ziva-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/german shepherd/thumbs/thumbs_german-shepherd-ziva-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/Cowboy1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/Ken4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/asko.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/bessi1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/carlo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/elo1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/jack5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/max1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/micah.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/roxy2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/scooby.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/tank.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/tiko.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/dogs/thumbs/yogi1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/ring9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/europe/thumbs/thumbs_ring9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Attack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Beagle-Mix.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Bite-Work-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Bite-Work-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Bite-Work.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Doberman.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Field.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-German-Shepherd-Pack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-German-Shepherds.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Heel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Lab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Leash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Pit-Bull.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Play.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Pose.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Puppies.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Ready.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Rest.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Retriever.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Schnauzer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-School.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Sit-Stay.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Sit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Snow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Treat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/Dog-Training-Walk.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Attack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Beagle-Mix.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Bite-Work-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Bite-Work-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Bite-Work.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Doberman.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Field.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-German-Shepherd-Pack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-German-Shepherds.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Heel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Lab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Leash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Pit-Bull.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Play.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Pose.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Puppies.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Ready.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Rest.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Retriever.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Schnauzer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-School.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Sit-Stay.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Sit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Snow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Treat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/gallery/nashville dog training/thumbs/thumbs_Dog-Training-Walk.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-big-catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-black-white.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-boat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-cart.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-duck-catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-field.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-field2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-food.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-golden-lab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-good-catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-guns.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-lab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-labrador.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-lake.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-mud.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-open-field.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-pose.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-puppies.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-puppy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-resting.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-retrievers.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-river-side.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-road.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-snow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-view.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-water.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dog-winner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/hunting-dogs-boat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-big-catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-black-white.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-boat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-cart.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-duck-catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-field.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-field2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-food.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-golden-lab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-good-catch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-guns.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-lab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-labrador.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-lake.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-mud.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-open-field.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-pose.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-puppies.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-puppy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-resting.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-retrievers.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-river-side.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-road.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-snow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-view.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-water.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dog-winner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/hunting dogs/labrador/thumbs/thumbs_hunting-dogs-boat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/gallery.css.scss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages/gallery.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages/gallery.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="nash_k9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -769,7 +23,99 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="0" selection-start="4285" selection-end="4285" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/gallery.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="8" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1354623686000" expanded="true" signature="104:1215" placeholder="..." />
+                <marker date="1354623686000" expanded="true" signature="222:1208" placeholder="..." />
+                <marker date="1354623686000" expanded="true" signature="258:531" placeholder="..." />
+                <marker date="1354623686000" expanded="true" signature="297:516" placeholder="{...}" />
+                <marker date="1354623686000" expanded="true" signature="395:504" placeholder="{...}" />
+                <marker date="1354623686000" expanded="false" signature="590:620" placeholder="..." />
+                <marker date="1354623686000" expanded="true" signature="658:1198" placeholder="..." />
+                <marker date="1354623686000" expanded="false" signature="785:862" placeholder="..." />
+                <marker date="1354623686000" expanded="true" signature="863:1169" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages/gallery.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="16" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="17" selection-start="582" selection-end="582" vertical-scroll-proportion="0.27184466">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_services_sidebar.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_services_sidebar.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="60" selection-start="1123" selection-end="1180" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="album.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/album.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="44" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header_main.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header_main.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -782,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/galleries/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/galleries/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/bottomlesspagination.js" />
         <option value="$PROJECT_DIR$/app/views/galleries/gallery.html.erb" />
@@ -791,13 +136,14 @@
         <option value="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/album.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/gallery.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/pages/gallery.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pages/dogs.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/dogs.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/album.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/pages/gallery.css.scss" />
       </list>
     </option>
   </component>
@@ -908,6 +254,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nash_k9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nash_k9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nash_k9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nash_k9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1114,10 +504,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1138,32 +524,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nash_k9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nash_k9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dog_training_services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1629,13 +989,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.035656404" sideWeight="0.2179878" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3930308" sideWeight="0.86890244" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3930308" sideWeight="0.86890244" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41501105" sideWeight="0.49675852" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939025" sideWeight="0.49756888" order="7" side_tool="true" content_ui="tabs" />
@@ -1735,26 +1095,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/path_set.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_menu.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="33" selection-start="616" selection-end="616" vertical-scroll-proportion="0.54059404" />
@@ -1765,29 +1105,14 @@
         <state line="13" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.4178218" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages/gallery.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="17" selection-start="726" selection-end="915" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages/dogs.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="25" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/gallery.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="413" selection-end="1080" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="1" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/album.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="225" selection-end="367" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
@@ -1804,7 +1129,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="3992" selection-end="3992" vertical-scroll-proportion="1.1869918">
+        <state line="94" column="0" selection-start="4285" selection-end="4285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/gallery.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1354623686000" expanded="true" signature="104:1215" placeholder="..." />
+            <marker date="1354623686000" expanded="true" signature="222:1208" placeholder="..." />
+            <marker date="1354623686000" expanded="true" signature="258:531" placeholder="..." />
+            <marker date="1354623686000" expanded="true" signature="297:516" placeholder="{...}" />
+            <marker date="1354623686000" expanded="true" signature="395:504" placeholder="{...}" />
+            <marker date="1354623686000" expanded="false" signature="590:620" placeholder="..." />
+            <marker date="1354623686000" expanded="true" signature="658:1198" placeholder="..." />
+            <marker date="1354623686000" expanded="false" signature="785:862" placeholder="..." />
+            <marker date="1354623686000" expanded="true" signature="863:1169" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/album.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="44" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header_main.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header_child.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_services_sidebar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="60" selection-start="1123" selection-end="1180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages/gallery.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="16" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="17" selection-start="582" selection-end="582" vertical-scroll-proportion="0.27184466">
           <folding />
         </state>
       </provider>

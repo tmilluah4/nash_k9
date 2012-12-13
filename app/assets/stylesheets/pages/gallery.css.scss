@@ -47,44 +47,27 @@
 
 
 .the-image-album {
-  height: 100%;
-  min-height: 240px;
-  width: 620px;
-  display: inline-block;
-  padding: 5px;
-  border: 2px solid black;
+  height:auto !important;
+  width: 640px;
+
+  .the-image-border-album:hover {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #B8A84F;
+    width: 90%;
+    cursor: pointer;
+  }
 
   .the-image-border-album {
-    border: 2px solid black;
-    float: left;
-    padding: 5px;
-    height: 100%;
     display: inline-block;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  #352F15;
+    background-size: 100%;
+    width: 90%;
 
-    img:hover {
-      border-width: 5px 5px 5px 5px;
-      border-style: solid;
-      border-color: #B8A84F;
-      width: 170px;
-      height: 130px;
-    }
-    .photo {
-      margin-top: -30px;
-      margin-left: 5px;
-      width: 173px;
-
-    }
-
-
-    img {
-      border-width: 5px 5px 5px 5px;
-      border-style: solid;
-      border-color: #352F15;
-      width: 170px;
-      height: 130px;
-      display:inline-block;
-    }
 
   }
 }
+
 
