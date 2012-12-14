@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="272e8cc7-35c1-42f3-9159-07fea83001c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/facebook-icon.png" afterPath="$PROJECT_DIR$/app/assets/images/facebook-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/twitter-icon.png" afterPath="$PROJECT_DIR$/app/assets/images/twitter-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/vimeo-icon.png" afterPath="$PROJECT_DIR$/app/assets/images/vimeo-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/youtube-icon.png" afterPath="$PROJECT_DIR$/app/assets/images/youtube-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" />
     </list>
     <ignored path="nash_k9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +56,268 @@
         <entry file="file://$PROJECT_DIR$/app/views/pages/dogs.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="385" column="76" selection-start="17748" selection-end="17748" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1355440857000" expanded="true" signature="103:43389" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="221:43382" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="255:356" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="292:343" placeholder="{...}" />
+                <marker date="1355440857000" expanded="true" signature="422:488" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="517:3155" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="558:1820" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="585:777" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="621:762" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="641:743" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="658:722" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="944:1048" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="1164:1276" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="1298:1512" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="1649:1807" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="1760:1792" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="1831:3144" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3179:3219" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3246:4919" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3294:4313" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3319:3495" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3353:3482" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3371:3465" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3386:3446" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3656:3756" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3870:3978" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="3998:4205" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="4322:4910" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="4943:4996" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="5023:7866" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="5060:6522" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="5085:5258" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="5119:5245" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="5137:5228" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="5152:5209" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="5430:5530" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="5644:5752" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="5772:5979" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="6108:6511" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="6217:6243" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="6345:6371" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="6473:6498" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="6531:7857" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="6922:7847" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="6941:7842" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="7890:7956" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="7983:10094" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="8020:9225" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="8045:8218" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="8079:8205" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="8097:8188" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="8112:8169" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="8390:8490" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="8604:8712" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="8732:8938" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="9067:9214" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="9176:9201" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="9234:10085" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10118:10197" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10224:11970" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10270:11312" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10295:10468" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10329:10455" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10347:10438" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10362:10419" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10655:10755" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10870:10978" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="10998:11205" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="11321:11961" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="11994:12067" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="12094:13560" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="12140:13182" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="12165:12338" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="12199:12325" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="12217:12308" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="12232:12289" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="12524:12624" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="12739:12847" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="12867:13075" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="13191:13551" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="13584:13642" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="13671:16005" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="13712:14987" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="13739:13928" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="13775:13913" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="13795:13894" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="13812:13873" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="14095:14199" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="14315:14427" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="14449:14663" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="14800:14974" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="14911:14959" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="14998:15994" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="15540:15982" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="15559:15977" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16029:16115" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16142:17746" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16188:17206" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16213:16386" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16247:16373" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16265:16356" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16280:16337" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16548:16648" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16763:16871" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="16891:17099" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="17215:17737" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="17773:17832" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="17861:19606" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="17909:18997" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="17936:18125" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="17972:18110" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="17992:18091" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="18009:18070" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="18316:18420" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="18535:18647" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="18669:18882" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="19008:19595" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="19629:19697" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="19724:21338" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="19770:20816" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="19795:19968" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="19829:19955" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="19847:19938" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="19862:19919" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="20158:20258" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="20373:20481" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="20501:20709" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="20825:21329" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="21363:21420" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="21449:23118" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="21497:22594" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="21524:21713" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="21560:21698" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="21580:21679" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="21597:21658" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="21907:22011" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="22129:22241" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="22263:22479" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="22605:23107" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="23142:23216" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="23243:25225" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="23280:24627" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="23305:23478" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="23339:23465" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="23357:23448" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="23372:23429" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="23663:23763" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="23877:23985" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="24005:24212" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="24341:24616" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="24450:24475" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="24578:24603" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="24636:25216" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="25248:25310" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="25339:26913" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="25387:26472" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="25414:25603" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="25450:25588" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="25470:25569" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="25487:25548" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="25789:25893" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="26009:26121" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="26143:26357" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="26483:26902" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="26937:26990" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="27017:28736" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="27063:28108" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="27088:27261" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="27122:27248" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="27140:27231" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="27155:27212" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="27448:27548" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="27664:27772" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="27792:28001" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="28117:28727" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="28761:28796" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="28823:31802" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="28860:30592" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="28885:29058" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="28919:29045" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="28937:29028" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="28952:29009" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="29244:29344" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="29458:29566" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="29586:29793" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="29922:30581" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="30031:30057" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="30159:30185" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="30287:30313" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="30415:30441" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="30543:30568" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="30601:31793" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="31826:31867" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="31894:33373" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="31940:32995" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="31965:32138" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="31999:32125" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="32017:32108" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="32032:32089" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="32337:32437" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="32552:32660" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="32680:32888" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="33004:33364" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="33397:33434" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="33461:34968" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="33507:34547" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="33532:33705" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="33566:33692" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="33584:33675" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="33599:33656" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="33891:33991" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="34105:34213" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="34233:34440" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="34556:34959" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="34992:35030" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="35057:36564" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="35103:36142" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="35128:35301" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="35162:35288" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="35180:35271" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="35195:35252" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="35485:35585" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="35700:35808" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="35828:36035" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="36151:36555" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="36588:36629" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="36658:38232" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="36706:37790" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="36733:36922" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="36769:36907" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="36789:36888" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="36806:36867" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="37107:37211" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="37327:37439" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="37461:37675" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="37801:38221" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="38241:39165" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="39191:39231" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="39260:40831" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="39308:40395" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="39335:39524" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="39371:39509" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="39391:39490" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="39408:39469" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="39714:39818" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="39933:40045" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="40067:40280" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="40406:40820" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="40858:40898" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="40927:42339" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="40975:42058" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="41002:41191" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="41038:41176" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="41058:41157" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="41075:41136" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="41374:41478" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="41594:41706" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="41728:41943" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="42069:42328" placeholder="..." />
+                <marker date="1355440857000" expanded="true" signature="42354:43371" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,12 +331,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="100" selection-start="136" selection-end="136" vertical-scroll-proportion="0.10194175">
+            <state line="38" column="96" selection-start="1680" selection-end="1762" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="56" selection-start="3182" selection-end="3182" vertical-scroll-proportion="0.32142857">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook-feed-icon.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/images/facebook-feed-icon.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -97,7 +381,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/galleries/gallery.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/constants.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/galleries_controller.rb" />
@@ -113,6 +396,7 @@
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/dogs.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
       </list>
     </option>
   </component>
@@ -565,6 +849,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nash_k9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nash_k9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1152,20 +1462,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages/gallery.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="3" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/dog_training_tn_services_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1246,7 +1542,268 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/dogs.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="385" column="76" selection-start="17748" selection-end="17748" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1355440857000" expanded="true" signature="103:43389" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="221:43382" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="255:356" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="292:343" placeholder="{...}" />
+            <marker date="1355440857000" expanded="true" signature="422:488" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="517:3155" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="558:1820" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="585:777" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="621:762" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="641:743" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="658:722" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="944:1048" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="1164:1276" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="1298:1512" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="1649:1807" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="1760:1792" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="1831:3144" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3179:3219" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3246:4919" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3294:4313" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3319:3495" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3353:3482" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3371:3465" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3386:3446" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3656:3756" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3870:3978" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="3998:4205" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="4322:4910" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="4943:4996" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="5023:7866" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="5060:6522" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="5085:5258" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="5119:5245" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="5137:5228" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="5152:5209" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="5430:5530" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="5644:5752" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="5772:5979" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="6108:6511" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="6217:6243" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="6345:6371" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="6473:6498" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="6531:7857" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="6922:7847" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="6941:7842" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="7890:7956" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="7983:10094" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="8020:9225" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="8045:8218" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="8079:8205" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="8097:8188" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="8112:8169" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="8390:8490" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="8604:8712" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="8732:8938" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="9067:9214" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="9176:9201" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="9234:10085" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10118:10197" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10224:11970" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10270:11312" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10295:10468" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10329:10455" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10347:10438" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10362:10419" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10655:10755" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10870:10978" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="10998:11205" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="11321:11961" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="11994:12067" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="12094:13560" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="12140:13182" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="12165:12338" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="12199:12325" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="12217:12308" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="12232:12289" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="12524:12624" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="12739:12847" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="12867:13075" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="13191:13551" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="13584:13642" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="13671:16005" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="13712:14987" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="13739:13928" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="13775:13913" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="13795:13894" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="13812:13873" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="14095:14199" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="14315:14427" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="14449:14663" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="14800:14974" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="14911:14959" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="14998:15994" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="15540:15982" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="15559:15977" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16029:16115" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16142:17746" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16188:17206" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16213:16386" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16247:16373" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16265:16356" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16280:16337" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16548:16648" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16763:16871" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="16891:17099" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="17215:17737" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="17773:17832" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="17861:19606" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="17909:18997" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="17936:18125" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="17972:18110" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="17992:18091" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="18009:18070" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="18316:18420" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="18535:18647" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="18669:18882" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="19008:19595" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="19629:19697" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="19724:21338" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="19770:20816" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="19795:19968" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="19829:19955" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="19847:19938" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="19862:19919" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="20158:20258" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="20373:20481" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="20501:20709" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="20825:21329" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="21363:21420" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="21449:23118" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="21497:22594" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="21524:21713" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="21560:21698" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="21580:21679" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="21597:21658" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="21907:22011" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="22129:22241" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="22263:22479" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="22605:23107" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="23142:23216" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="23243:25225" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="23280:24627" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="23305:23478" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="23339:23465" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="23357:23448" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="23372:23429" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="23663:23763" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="23877:23985" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="24005:24212" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="24341:24616" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="24450:24475" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="24578:24603" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="24636:25216" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="25248:25310" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="25339:26913" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="25387:26472" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="25414:25603" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="25450:25588" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="25470:25569" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="25487:25548" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="25789:25893" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="26009:26121" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="26143:26357" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="26483:26902" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="26937:26990" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="27017:28736" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="27063:28108" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="27088:27261" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="27122:27248" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="27140:27231" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="27155:27212" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="27448:27548" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="27664:27772" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="27792:28001" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="28117:28727" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="28761:28796" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="28823:31802" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="28860:30592" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="28885:29058" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="28919:29045" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="28937:29028" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="28952:29009" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="29244:29344" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="29458:29566" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="29586:29793" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="29922:30581" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="30031:30057" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="30159:30185" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="30287:30313" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="30415:30441" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="30543:30568" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="30601:31793" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="31826:31867" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="31894:33373" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="31940:32995" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="31965:32138" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="31999:32125" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="32017:32108" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="32032:32089" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="32337:32437" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="32552:32660" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="32680:32888" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="33004:33364" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="33397:33434" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="33461:34968" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="33507:34547" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="33532:33705" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="33566:33692" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="33584:33675" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="33599:33656" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="33891:33991" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="34105:34213" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="34233:34440" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="34556:34959" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="34992:35030" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="35057:36564" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="35103:36142" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="35128:35301" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="35162:35288" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="35180:35271" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="35195:35252" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="35485:35585" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="35700:35808" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="35828:36035" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="36151:36555" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="36588:36629" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="36658:38232" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="36706:37790" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="36733:36922" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="36769:36907" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="36789:36888" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="36806:36867" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="37107:37211" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="37327:37439" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="37461:37675" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="37801:38221" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="38241:39165" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="39191:39231" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="39260:40831" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="39308:40395" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="39335:39524" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="39371:39509" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="39391:39490" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="39408:39469" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="39714:39818" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="39933:40045" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="40067:40280" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="40406:40820" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="40858:40898" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="40927:42339" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="40975:42058" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="41002:41191" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="41038:41176" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="41058:41157" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="41075:41136" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="41374:41478" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="41594:41706" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="41728:41943" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="42069:42328" placeholder="..." />
+            <marker date="1355440857000" expanded="true" signature="42354:43371" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,8 +1816,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="100" selection-start="136" selection-end="136" vertical-scroll-proportion="0.10194175">
+        <state line="38" column="96" selection-start="1680" selection-end="1762" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/facebook-feed-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="56" selection-start="3182" selection-end="3182" vertical-scroll-proportion="0.32142857">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#td#2;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,7 +1,8 @@
 
 <%= render :partial => 'layouts/header_main', :locals => { :show_links => true } %>
 
-<div class="main" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<div class="main" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+     xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
   <div class="content">
 
@@ -64,12 +65,15 @@
               </ul>
             </td>
             <td>
-              <div style="height:270px; margin-top:27px;  line-height: .1em;  overflow: auto; padding: 0px;">
 
+              <div style="height:270px; margin-top:20px;  line-height: .1em;  overflow: auto; padding: 0px;">
+                <div style="margin-left:20px">
+
+                </div>
 
                   <ul>
                     <% @stream.each do |status| %>
-                        <li style="list-style-type: square; padding-bottom: 5px; border-bottom: 2px solid #333; line-height: 2em; color: #B8A84F;">
+                        <li style="list-style-image: url('/assets/facebook-feed-icon.png');   padding-bottom: 5px; border-bottom: 2px solid #333; line-height: 2em; color: #B8A84F;">
                           <span class="text"> <%= status["message"] %> </span>
                         </li>  </br>   </br>
                     <% end %>
