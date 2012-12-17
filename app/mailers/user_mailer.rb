@@ -4,6 +4,6 @@ class UserMailer < ActionMailer::Base
   def signup_confirmation(user)
     @user = user
 
-    mail to: "nashvillek9@gmail.com", subject: "Sign Up Confirmation"
+    mail to: "ali@nashvillek9.com", subject: "Sign Up Confirmation"
   end
 end
