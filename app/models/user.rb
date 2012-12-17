@@ -3,5 +3,5 @@ class User < ActiveRecord::Base
   validates :name, :presence => true
   validates :message, :presence => true
   validates :phone, :presence => true
-  validates :email, :email_format => true
+  validates :email,:presence => true
 end
