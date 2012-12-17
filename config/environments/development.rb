@@ -23,7 +23,7 @@ NashK9::Application.configure do
       domain: "heroku.com",
       authentication: "plain",
       enable_starttls_auto: true,
-      user_name: 'nashvillek9@gmail.com',
+      user_name: 'ali@nashvillek9.com',
       password: 'malcap1010'
   }
 

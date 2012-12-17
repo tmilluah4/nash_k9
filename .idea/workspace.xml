@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="272e8cc7-35c1-42f3-9159-07fea83001c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
     </list>
     <ignored path="nash_k9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,24 +52,34 @@
         <entry file="file://$PROJECT_DIR$/app/views/pages/contact.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1353363980000" expanded="true" signature="104:1249" placeholder="..." />
+                <marker date="1353363980000" expanded="true" signature="218:1242" placeholder="..." />
+                <marker date="1353363980000" expanded="true" signature="290:1233" placeholder="..." />
+                <marker date="1353363980000" expanded="true" signature="407:716" placeholder="..." />
+                <marker date="1353363980000" expanded="true" signature="538:695" placeholder="..." />
+                <marker date="1353363980000" expanded="true" signature="767:861" placeholder="..." />
+                <marker date="1353363980000" expanded="true" signature="891:987" placeholder="..." />
+                <marker date="1353363980000" expanded="true" signature="1017:1117" placeholder="..." />
+                <marker date="1353363980000" expanded="true" signature="1149:1204" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="30" selection-start="2419" selection-end="2419" vertical-scroll-proportion="0.6791045">
+            <state line="64" column="30" selection-start="2419" selection-end="2419" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="development.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="27" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0">
+            <state line="25" column="33" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.60722893">
               <folding />
             </state>
           </provider>
@@ -136,10 +146,10 @@
         <option value="$PROJECT_DIR$/app/views/pages/dogs.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
       </list>
     </option>
   </component>
@@ -708,16 +718,16 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="114" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="158" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="136" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="135" />
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/Sites/demo_endless" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="118" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="811" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="801" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="801" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="131" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="126" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="130" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="125" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
@@ -1263,7 +1273,17 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/contact.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1353363980000" expanded="true" signature="104:1249" placeholder="..." />
+            <marker date="1353363980000" expanded="true" signature="218:1242" placeholder="..." />
+            <marker date="1353363980000" expanded="true" signature="290:1233" placeholder="..." />
+            <marker date="1353363980000" expanded="true" signature="407:716" placeholder="..." />
+            <marker date="1353363980000" expanded="true" signature="538:695" placeholder="..." />
+            <marker date="1353363980000" expanded="true" signature="767:861" placeholder="..." />
+            <marker date="1353363980000" expanded="true" signature="891:987" placeholder="..." />
+            <marker date="1353363980000" expanded="true" signature="1017:1117" placeholder="..." />
+            <marker date="1353363980000" expanded="true" signature="1149:1204" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1295,13 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="16" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
@@ -1311,7 +1324,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="30" selection-start="2419" selection-end="2419" vertical-scroll-proportion="0.6791045">
+        <state line="64" column="30" selection-start="2419" selection-end="2419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="33" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.60722893">
           <folding />
         </state>
       </provider>
