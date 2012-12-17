@@ -55,11 +55,11 @@ NashK9::Application.configure do
   config.action_mailer.smtp_settings = {
       address: "smtp.gmail.com",
       port: 587,
-      domain: "heroku.com",
-      authentication: "plain",
+      domain: "heroku.com" ,
+       authentication: "plain",
       enable_starttls_auto: true,
-      user_name: 'nashvillek9@gmail.com',
-      password: 'malcap1010'
+      user_name: 'rtoddmiller3@gmail.com',
+      password: 'liam4444'
   }
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
