@@ -11,9 +11,9 @@ end
 
 module NashK9
   class Application < Rails::Application
-    if Rails.env == "production"
-      config.middleware.use("Rack::GoogleAnalytics", :web_property_id => "UA-9281447-1")
-    end
+    #if Rails.env == "production"
+    #  config.middleware.use("Rack::GoogleAnalytics", :web_property_id => "UA-9281447-1")
+    #end
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
