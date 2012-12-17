@@ -11,6 +11,7 @@ end
 
 module NashK9
   class Application < Rails::Application
+
     #if Rails.env == "production"
     #  config.middleware.use("Rack::GoogleAnalytics", :web_property_id => "UA-9281447-1")
     #end
