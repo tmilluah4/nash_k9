@@ -1,7 +1,9 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
-
+if Rails.env == "production"
+  config.middleware.use("Rack::GoogleAnalytics", :web_property_id => "UA-9281447-1")
+end
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
   Bundler.require(*Rails.groups(:assets => %w(development test)))
@@ -12,8 +14,6 @@ end
 module NashK9
   class Application < Rails::Application
 
-
-      config.middleware.use("Rack::GoogleAnalytics", :web_property_id => "UA-9281447-1")
 
 
     # Settings in config/environments/* take precedence over those specified here.
