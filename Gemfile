@@ -8,6 +8,7 @@ gem 'koala'
 gem 'jquery-rails'
 gem 'fancybox-rails'
 gem 'actionmailer'
+gem 'rack-google-analytics', :require => 'rack/google-analytics'
 group :development do
   gem 'sqlite3', '1.3.5'
   gem 'capybara'
@@ -16,7 +17,7 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
-  gem 'rack-google-analytics', :require => 'rack/google-analytics'
+
 end
 
 
