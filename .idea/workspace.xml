@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="272e8cc7-35c1-42f3-9159-07fea83001c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nash_k9.iml" afterPath="$PROJECT_DIR$/.idea/nash_k9.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
     </list>
     <ignored path="nash_k9.iws" />
@@ -71,7 +69,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="14" selection-start="220" selection-end="220" vertical-scroll-proportion="0.3421687">
+            <state line="5" column="1" selection-start="184" selection-end="184" vertical-scroll-proportion="0.24096386">
               <folding />
             </state>
           </provider>
@@ -104,8 +102,8 @@
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/generators/rails/scaffold/templates/scaffold.css" />
         <option value="$PROJECT_DIR$/app/views/Users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -1328,7 +1326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="220" selection-end="220" vertical-scroll-proportion="0.3421687">
+        <state line="5" column="1" selection-start="184" selection-end="184" vertical-scroll-proportion="0.24096386">
           <folding />
         </state>
       </provider>
