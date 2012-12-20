@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="272e8cc7-35c1-42f3-9159-07fea83001c0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/k9.ico" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nash_k9.iws" />
@@ -21,19 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dogs.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dogs.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/dogs.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="36" selection-start="5198" selection-end="5198" vertical-scroll-proportion="0.0">
+            <state line="129" column="36" selection-start="5268" selection-end="5268" vertical-scroll-proportion="-0.85503685">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="94" selection-start="3953" selection-end="3953" vertical-scroll-proportion="1.8771498">
+            <state line="71" column="94" selection-start="3953" selection-end="3953" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1311,13 +1312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/dogs.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="36" selection-start="5198" selection-end="5198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1327,7 +1321,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="94" selection-start="3953" selection-end="3953" vertical-scroll-proportion="1.8771498">
+        <state line="71" column="94" selection-start="3953" selection-end="3953" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/dogs.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="36" selection-start="5268" selection-end="5268" vertical-scroll-proportion="-0.85503685">
           <folding />
         </state>
       </provider>
