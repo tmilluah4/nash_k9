@@ -1,11 +1,11 @@
 <%= render :partial => 'layouts/header_child', :locals => { :show_links => true } %>
 
-<div class="main" xmlns="http://www.w3.org/1999/html">
+<div class="main"  >
   <%= render :partial => 'layouts/contact_sidebar', :locals => { :show_links => true } %>
   <div class="content">
     <img src="/assets/titles/Insist.png">
     </br> </br>
-    <div class="contact-us">
+      <div class="contact-us">
       <%= form_for @user do |f| %>
                 <% if @user.errors.any? %>
                     <div class="error_messages">
@@ -37,6 +37,7 @@
                   <%= f.submit "Submit" %>
                 </div>
             <% end %>
-        </div>
       </div>
+     </div>
+
     </div>
