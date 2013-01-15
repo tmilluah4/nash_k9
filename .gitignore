@@ -25,7 +25,7 @@ log/*.pid
 vendor/gems
 
 # Rubymine
-.idea
+.idea/*
 spec/javascripts/fixtures/rspec*
 spec/fixtures/reports/iwr*
 spec/fixtures/iwr_fixtures.tgz
