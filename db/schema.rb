@@ -22,7 +22,8 @@ ActiveRecord::Schema.define(:version => 20121122145809) do
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"
-    t.string   "comment"
+    t.string   "comments"
+    t.string   "subject"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.string   "phone"
