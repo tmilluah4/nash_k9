@@ -5,12 +5,30 @@
 #   git config --global core.excludesfile ~/.gitignore_global
 
 # Ignore bundler config
-/.bundle
+.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
+db/*.sqlite3
+db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
-/log/*.log
-/tmp
-.idea/workspace.xml
+log/*.log
+tmp
+log/*.pid
+*.swp
+*.swo
+.rvmrc
+*.pid
+
+# Ignore vendor/gems directory (omniauth-wsfed submodule issues)
+vendor/gems
+
+# Rubymine
+.idea
+spec/javascripts/fixtures/rspec*
+spec/fixtures/reports/iwr*
+spec/fixtures/iwr_fixtures.tgz
+
+
+
+.DS_Store
