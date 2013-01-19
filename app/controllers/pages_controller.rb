@@ -14,7 +14,7 @@ class PagesController < ApplicationController
       session[:access_token] = session[:oauth].get_access_token(params[:code])
     end
     # auth established, now do a graph call:
-     @api = Koala::Facebook::API.new("AAACEdEose0cBALfGjU9n6BgL3v8bzVR7keuwvHe7a6Kh94iHi88SmfNZBH886yYCm0EZCfzJwbttHoJNw4Lfl11MG72oagzNYAV7ipMehcIXv9ZAW2ZC")
+     @api = Koala::Facebook::API.new("AAACEdEose0cBANMEWb9IrjuJsbcEZArwTJyIsZC1DkdpknkiLzWmGXcEZAy3ffEZBFtVwdHZAnrXo4ROSHLVx7dxGJJJBqcvNupRGXH0lFXnUmGRskZCjl")
     begin
       @stream  = @graph_data = @api.get_object("/me/statuses", "fields"=>"message")
 
@@ -44,7 +44,7 @@ class PagesController < ApplicationController
       session[:access_token] = session[:oauth].get_access_token(params[:code])
     end
 
-    @api = Koala::Facebook::API.new("AAACEdEose0cBALfGjU9n6BgL3v8bzVR7keuwvHe7a6Kh94iHi88SmfNZBH886yYCm0EZCfzJwbttHoJNw4Lfl11MG72oagzNYAV7ipMehcIXv9ZAW2ZC")
+    @api = Koala::Facebook::API.new("AAACEdEose0cBANMEWb9IrjuJsbcEZArwTJyIsZC1DkdpknkiLzWmGXcEZAy3ffEZBFtVwdHZAnrXo4ROSHLVx7dxGJJJBqcvNupRGXH0lFXnUmGRskZCjl")
     @aid =  params[:id]
     begin
       @dogs =    @api.rest_call("fql.multiquery", {:queries => {
@@ -102,7 +102,7 @@ class PagesController < ApplicationController
       # acknowledge code and get access token from FB
       session[:access_token] = session[:oauth].get_access_token(params[:code])
     end
-    @api = Koala::Facebook::API.new("AAACEdEose0cBALfGjU9n6BgL3v8bzVR7keuwvHe7a6Kh94iHi88SmfNZBH886yYCm0EZCfzJwbttHoJNw4Lfl11MG72oagzNYAV7ipMehcIXv9ZAW2ZC")
+    @api = Koala::Facebook::API.new("AAACEdEose0cBANMEWb9IrjuJsbcEZArwTJyIsZC1DkdpknkiLzWmGXcEZAy3ffEZBFtVwdHZAnrXo4ROSHLVx7dxGJJJBqcvNupRGXH0lFXnUmGRskZCjl")
     @aid =  params[:id]
     begin
       @album1  = @api.fql_query("SELECT src_big,src FROM photo WHERE aid = '#{@aid}'" )
@@ -132,7 +132,7 @@ class PagesController < ApplicationController
 
     # auth established, now do a graph call:
 
-    @api = Koala::Facebook::GraphAndRestAPI.new("AAACEdEose0cBALfGjU9n6BgL3v8bzVR7keuwvHe7a6Kh94iHi88SmfNZBH886yYCm0EZCfzJwbttHoJNw4Lfl11MG72oagzNYAV7ipMehcIXv9ZAW2ZC")
+    @api = Koala::Facebook::GraphAndRestAPI.new("AAACEdEose0cBANMEWb9IrjuJsbcEZArwTJyIsZC1DkdpknkiLzWmGXcEZAy3ffEZBFtVwdHZAnrXo4ROSHLVx7dxGJJJBqcvNupRGXH0lFXnUmGRskZCjl")
 
     begin
            @albums = @api.rest_call("fql.multiquery", {:queries => {
