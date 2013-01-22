@@ -30,6 +30,7 @@ NashK9::Application.routes.draw do
      get "dog_training_tn_services/nashville_dog_training_programs"
      get "dog_training_tn_services/pet_first_aid"
      get "dog_training_tn_services/police_dogs"
+     get "dog_training_tn_services/working_dogs"
      get "dog_training_tn_services/search_and_rescue"
      get "dog_training_tn_services/detection_dogs"
   # Keep in mind you can assign values other than :controller and :action
