@@ -14,10 +14,6 @@ class PagesController < ApplicationController
 
   end
 
-  def album
-
-  end
-
   def dogs
     session[:oauth] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, SITE_URL + '/gallery')
     @auth_url =  session[:oauth].url_for_oauth_code(:permissions=>"read_stream")
@@ -26,7 +22,6 @@ class PagesController < ApplicationController
     #replace fb_exchange_token at end of string to get new one
     #https://graph.facebook.com/oauth/access_token?%20client_id=384540454954612&%20client_secret=5cad8eb3f2b7211c13574a6a31919b80&%20grant_type=fb_exchange_token&%20fb_exchange_token=AAAFdvM04JnQBAPVOZCJ6ShfZCva7g0jA8xxdOERKdLc0wBDt0vqfZALOyYaXfTg0qyZB9MMpFpZAb5PGjZC25YRq7OZBzKDe4Fof6Q1XhZArowZDZD
     @api = Koala::Facebook::API.new("AAAFdvM04JnQBAPVOZCJ6ShfZCva7g0jA8xxdOERKdLc0wBDt0vqfZALOyYaXfTg0qyZB9MMpFpZAb5PGjZC25YRq7OZBzKDe4Fof6Q1XhZArowZDZD")
-
     @dogs =  @api.rest_call("fql.multiquery", {:queries => {
             "1" => "SELECT src_big FROM photo WHERE aid = '100000256514752_124308'",
             "2" => "select src_big from photo where aid = '100000256514752_53171' LIMIT 10",
@@ -57,19 +52,22 @@ class PagesController < ApplicationController
         "query1" => "select aid, cover_pid, photo_count, name from album where owner = me() and photo_count > 0  order by created desc",
         "query2" => "select src_big from photo where pid in (select cover_pid from #query1)"
     }.to_json})
-
   end
-
 
   def gallery
     session[:oauth] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, SITE_URL + '/gallery')
-
     @api = Koala::Facebook::API.new("AAAFdvM04JnQBAPVOZCJ6ShfZCva7g0jA8xxdOERKdLc0wBDt0vqfZALOyYaXfTg0qyZB9MMpFpZAb5PGjZC25YRq7OZBzKDe4Fof6Q1XhZArowZDZD")
-
     @albums = @api.rest_call("fql.multiquery", {:queries => {
         "query1" => "select aid, cover_pid, photo_count, name from album where owner = me() and photo_count > 0  order by created desc",
         "query2" => "select src_big from photo where pid in (select cover_pid from #query1)"
     }.to_json})
+  end
+
+  def album
+    session[:oauth] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, SITE_URL + '/gallery')
+    @api = Koala::Facebook::API.new("AAAFdvM04JnQBAPVOZCJ6ShfZCva7g0jA8xxdOERKdLc0wBDt0vqfZALOyYaXfTg0qyZB9MMpFpZAb5PGjZC25YRq7OZBzKDe4Fof6Q1XhZArowZDZD")
+    @aid =  params[:id]
+    @album1  = @api.fql_query("SELECT src_big,src FROM photo WHERE aid = '#{@aid}'" )
   end
 
 end
