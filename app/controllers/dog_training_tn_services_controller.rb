@@ -20,7 +20,7 @@ class DogTrainingTnServicesController < ApplicationController
   def hunting_dogs
     session[:oauth] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, SITE_URL + '/dogs')
 
-    @api = Koala::Facebook::API.new("AAAFdvM04JnQBAPVOZCJ6ShfZCva7g0jA8xxdOERKdLc0wBDt0vqfZALOyYaXfTg0qyZB9MMpFpZAb5PGjZC25YRq7OZBzKDe4Fof6Q1XhZArowZDZD")
+    @api = Koala::Facebook::API.new("AAAFdvM04JnQBAC9QTBaZCLmfAXxtxtG5bRZAZCIt21FwZCP9sm8PZCI9DAL3DP1divTJUyzZATgaQ0kWhagjplZAhzQTZAF5lK8a6cqCffJJGgZDZD")
     @aid =  params[:id]
 
       @dogs =    @api.rest_call("fql.multiquery", {:queries => {
