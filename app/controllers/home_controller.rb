@@ -21,7 +21,7 @@ class HomeController < ActionController::Base
 
     # auth established, now do a graph call:
 
-    @api = Koala::Facebook::API.new("AAAFdvM04JnQBAMZBmVuYMWes5rrYBmqWXOmhkPjQpenbbZA2qC3Yqq2acC0brNxru91nqj6ZCvdle9ZCeGaTo9Ndd5VwvlvmI0Uj79CkYwZDZD")
+    @api = Koala::Facebook::API.new("BAAFdvM04JnQBAN7sENu4EQUO3SWKWotgC74kAL7r29KGLeWaLEeHTIeT2BoCZCZALCsfbGbWVPVWrLKQyZAVQdX5d0hPdoEE5k6BHCSVPN6UZBzsydoP1IHzYkdm1kfcjxG7VRvSmRK3UmBzaPonfvx13Ofv4Bk1rhKqj2cDWYbVAIhs8T4rMox2PurccCZAM4gxU9PFI8K28iZARlPfMZC")
     begin
       @album_graph  = @api.fql_query("SELECT  src_big,src FROM photo WHERE aid = '100000256514752_123407'" )
 
