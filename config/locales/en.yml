@@ -5,3 +5,7 @@ en:
   errors:
     messages:
       email_format: "is not formatted properly"
+
+  recaptcha:
+    errors:
+      incorrect-captcha-sol: 'Fail'
