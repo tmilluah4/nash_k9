@@ -17,11 +17,18 @@ class PagesController < ApplicationController
   def dogs
     session[:oauth] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, SITE_URL + '/gallery')
     @auth_url =  session[:oauth].url_for_oauth_code(:permissions=>"read_stream")
-    #this will expire in 2 months from May 4, 2013
-    #http://stackoverflow.com/questions/12706228/how-do-i-get-a-page-access-token-that-does-not-expire/12706468#12706468
-    #replace fb_exchange_token at end of string to get new one
-    #https://graph.facebook.com/oauth/access_token?%20client_id=384540454954612&%20client_secret=5cad8eb3f2b7211c13574a6a31919b80&%20grant_type=fb_exchange_token&%20fb_exchange_token=AAAFdvM04JnQBAC9QTBaZCLmfAXxtxtG5bRZAZCIt21FwZCP9sm8PZCI9DAL3DP1divTJUyzZATgaQ0kWhagjplZAhzQTZAF5lK8a6cqCffJJGgZDZD
-    @api = Koala::Facebook::API.new("CAAFdvM04JnQBAHNtICbKUUtZCbXqg8q2Jdbkbc788prIvP9eQe6AsqAPaR0o6dCEXv6PizdbCLMFciCv3AKq9yZAkIrrU938uNbZBf2rt1sF5CPtUWP10QUknG2ZArmiZAKI7Wk3gDSrUx7PB65FDuu5AbEYzvZBEZD")
+
+    ###### DIRECTIONS FOR GETTING NEW KEY ###############
+      # this will expire in 2 months from July 27, 2013
+      # http://stackoverflow.com/questions/12706228/how-do-i-get-a-page-access-token-that-does-not-expire/12706468#12706468
+
+      # get new access token from https://developers.facebook.com/tools/explorer/384540454954612/?method=GET&path=100000256514752%3Ffields%3Did%2Cname
+      # make sure it is the "test" app
+      # paste it at end of line below and go the url...it will generate the new one to use....replace the old api keys with this new key
+      # https://graph.facebook.com/oauth/access_token?%20client_id=384540454954612&%20client_secret=5cad8eb3f2b7211c13574a6a31919b80&%20grant_type=fb_exchange_token&%20fb_exchange_token=
+
+
+    @api = Koala::Facebook::API.new("CAAFdvM04JnQBAOtaUMUqjbJ0BMNIuKzANAWeZAU8EvwJgRo4uE6HxT726NU2wAIDmFq6WvAgxftw71YyElax7DjSlqKEON6Oe0YHsSUmgnr3UN6whINcGXKyFCnAT3O2h3muvsJTgzksxekMm")
     @dogs =  @api.rest_call("fql.multiquery", {:queries => {
             "1" => "SELECT src_big FROM photo WHERE aid = '100000256514752_124308'",
             "2" => "select src_big from photo where aid = '100000256514752_53171' LIMIT 10",
@@ -57,7 +64,7 @@ class PagesController < ApplicationController
 
   def gallery
     session[:oauth] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, SITE_URL + '/gallery')
-    @api = Koala::Facebook::API.new("CAAFdvM04JnQBAHNtICbKUUtZCbXqg8q2Jdbkbc788prIvP9eQe6AsqAPaR0o6dCEXv6PizdbCLMFciCv3AKq9yZAkIrrU938uNbZBf2rt1sF5CPtUWP10QUknG2ZArmiZAKI7Wk3gDSrUx7PB65FDuu5AbEYzvZBEZD")
+    @api = Koala::Facebook::API.new("CAAFdvM04JnQBAOtaUMUqjbJ0BMNIuKzANAWeZAU8EvwJgRo4uE6HxT726NU2wAIDmFq6WvAgxftw71YyElax7DjSlqKEON6Oe0YHsSUmgnr3UN6whINcGXKyFCnAT3O2h3muvsJTgzksxekMm")
     @albums = @api.rest_call("fql.multiquery", {:queries => {
         "query1" => "select aid, cover_pid, photo_count, name from album where owner = me() and photo_count > 0  order by created desc",
         "query2" => "select src_big from photo where pid in (select cover_pid from #query1)"
@@ -66,7 +73,7 @@ class PagesController < ApplicationController
 
   def album
     session[:oauth] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, SITE_URL + '/gallery')
-    @api = Koala::Facebook::API.new("CAAFdvM04JnQBAHNtICbKUUtZCbXqg8q2Jdbkbc788prIvP9eQe6AsqAPaR0o6dCEXv6PizdbCLMFciCv3AKq9yZAkIrrU938uNbZBf2rt1sF5CPtUWP10QUknG2ZArmiZAKI7Wk3gDSrUx7PB65FDuu5AbEYzvZBEZD")
+    @api = Koala::Facebook::API.new("CAAFdvM04JnQBAOtaUMUqjbJ0BMNIuKzANAWeZAU8EvwJgRo4uE6HxT726NU2wAIDmFq6WvAgxftw71YyElax7DjSlqKEON6Oe0YHsSUmgnr3UN6whINcGXKyFCnAT3O2h3muvsJTgzksxekMm")
     @aid =  params[:id]
     @album1  = @api.fql_query("SELECT src_big,src FROM photo WHERE aid = '#{@aid}'" )
   end
