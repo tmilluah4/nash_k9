@@ -59,7 +59,7 @@ NashK9::Application.configure do
        authentication: "plain",
       enable_starttls_auto: true,
       user_name: 'rtoddmiller3@gmail.com',
-      password: 'liam4444'
+      password: 'Liam3333'
   }
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
