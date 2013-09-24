@@ -66,6 +66,107 @@
       </ul>
     </div>
 
+  <div class="title">
+    Knox, Personal Protection or Police  - Certified Police Dog
+  </div>
+  <div class="right-dogs">
+
+
+    <div class="image-border-right">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">$15,000</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Knox' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Knox" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[24]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Knox" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Breed: Belgian Malinois Shepherd </span></li>
+      <li class="parent"><span class="text">Date of Birth: 2/28/2010 </span></li>
+      <li class="parent"><span class="text">Knox is a fully certified police dog. He can also be placed in a single dog home as a family protection dog. He's very clean, has a short coat, super athletic, and extremely obedient. His intensity is full force while working, but calm inside the home. Knox has also been raised with children.  For Police departments, we will provide a handler course through certification.
+ </span></li>
+    </ul>
+  </div>
+
+  <div class="title">
+    Ammo, Personal Protection or Police
+  </div>
+  <div class="right-dogs">
+
+
+    <div class="image-border-right">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">$9,000</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Ammo' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Ammo" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[25]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Ammo" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Breed: Belgian Malinois Shepherd </span></li>
+      <li class="parent"><span class="text">Date of Birth: 1/15/2013</span></li>
+      <li class="parent"><span class="text">Ammo is a Malinois with a TON of energy and drive. He'll hunt all day long for anything, he loves to play, and he's starting to have a huge ego (which is great). We've used Ammo as our demonstration dog. He knows almost every command out there and would make a super dog for anyone.
+ </span></li>
+    </ul>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <div class="title">
     Scout vom Geistwasser, Service Dog for Parkinson’s Disease
