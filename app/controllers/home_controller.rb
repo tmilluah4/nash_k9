@@ -21,9 +21,8 @@ class HomeController < ActionController::Base
 
     # auth established, now do a graph call:
 
-    @api = Koala::Facebook::API.new("CAAFdvM04JnQBAOtaUMUqjbJ0BMNIuKzANAWeZAU8EvwJgRo4uE6HxT726NU2wAIDmFq6WvAgxftw71YyElax7DjSlqKEON6Oe0YHsSUmgnr3UN6whINcGXKyFCnAT3O2h3muvsJTgzksxekMm")
-    begin
-      @album_graph  = @api.fql_query("SELECT  src_big,src FROM photo WHERE aid = '100000256514752_123407'" )
+     begin
+      @album_graph  = $api.fql_query("SELECT  src_big,src FROM photo WHERE aid = '100000256514752_123407'" )
 
     rescue Exception=>ex
       puts ex.message

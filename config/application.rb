@@ -14,6 +14,16 @@ end
 module NashK9
   class Application < Rails::Application
 
+    ###### DIRECTIONS FOR GETTING NEW KEY ###############
+    # this will expire in 2 months from July 27, 2013
+    # http://stackoverflow.com/questions/12706228/how-do-i-get-a-page-access-token-that-does-not-expire/12706468#12706468
+
+    # get new access token from https://developers.facebook.com/tools/explorer/384540454954612/?method=GET&path=100000256514752%3Ffields%3Did%2Cname
+    # make sure it is the "test" app
+    # paste it at end of line below and go the url...it will generate the new one to use....replace the old api keys with this new key
+    # https://graph.facebook.com/oauth/access_token?%20client_id=384540454954612&%20client_secret=5cad8eb3f2b7211c13574a6a31919b80&%20grant_type=fb_exchange_token&%20fb_exchange_token=
+
+  $api = Koala::Facebook::API.new("CAAFdvM04JnQBANCSJmCy61nBDpHbEpWn5Mp3KZAikWYw5tZCYt7QkLP1ZBo2IrcEOcUkiyDBt1qFkraExlKgi8spK71QVGwv3FfgTbm1X2qNS1vg3Ksp0eC67bbJj4kPVc2hbQ8sfLV5sZCUOPe00ZCtZB4vga5BlVaSJNBBGAUvzqEpiXl3g8")
 
 
     # Settings in config/environments/* take precedence over those specified here.
