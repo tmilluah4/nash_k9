@@ -42,7 +42,7 @@ class PagesController < ApplicationController
             "92" => "SELECT src_big FROM photo WHERE aid = '100000256514752_124315' LIMIT 10",
             "93" => "SELECT src_big FROM photo WHERE aid = '100000256514752_124316'  LIMIT 10",
             "94" => "SELECT src_big FROM photo WHERE aid = '100000256514752_128350'  LIMIT 10",
-            "95" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073741861'  LIMIT 10",
+            "95" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073741846'  LIMIT 10",
             "96" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073741889'  LIMIT 10",
             "97" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073741893'  LIMIT 10",
     }.to_json})
