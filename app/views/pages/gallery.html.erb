@@ -19,7 +19,7 @@
     <div class="the-gallery">
         <% @albums[0]["fql_result_set"].each_with_index do |album, index| %>
 
-          <div class="the-image-gallery" style="">
+          <div class="the-image-gallery" id=""  style=" ">
               <a href="/pages/album/<%= @albums[0]['fql_result_set'][index]['aid'] %>"></a>
               <div class="count"> <%= @albums[0]["fql_result_set"][index]["photo_count"] %> </div>
               <div class="album-title"> <%= @albums[0]["fql_result_set"][index]["name"] %> </div>
