@@ -46,7 +46,7 @@ class PagesController < ApplicationController
             "96" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073741889'  LIMIT 10",
             "97" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073741893'  LIMIT 10",
     }.to_json})
-                 #"95"  =>  [23]
+                 #"95"  =>  [23]      1255722042768222223_70236930478160
     @dog_cover = $api.rest_call("fql.multiquery", {:queries => {
         "query1" => "select aid, cover_pid, photo_count, name from album where owner = me() and photo_count > 0  order by created desc",
         "query2" => "select src_big from photo where pid in (select cover_pid from #query1)"
