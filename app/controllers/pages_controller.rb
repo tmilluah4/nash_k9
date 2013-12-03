@@ -16,6 +16,7 @@ class PagesController < ApplicationController
   end
 
   def dogs
+
     session[:oauth] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, SITE_URL + '/gallery')
     @auth_url =  session[:oauth].url_for_oauth_code(:permissions=>"read_stream")
      @dogs =  $api.rest_call("fql.multiquery", {:queries => {
