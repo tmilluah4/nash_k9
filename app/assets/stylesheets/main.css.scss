@@ -164,6 +164,21 @@
     }
   }
 
+  .right-tall {
+
+    .image-border-right-tall {
+      float: right;
+      padding-left: 2em;
+
+      img {
+        border: 5px;
+        border-style: solid;
+        border-color: #352F15;
+        width: 190px;
+        height: 260px;
+      }
+    }
+  }
   .left {
     .image-border-left {
       float: left;
