@@ -23,7 +23,7 @@ module NashK9
     # paste it at end of line below and go the url...it will generate the new one to use....replace the old api keys with this new key
     # https://graph.facebook.com/oauth/access_token?%20client_id=384540454954612&%20client_secret=5cad8eb3f2b7211c13574a6a31919b80&%20grant_type=fb_exchange_token&%20fb_exchange_token=
 
-  $api = Koala::Facebook::API.new("CAAFdvM04JnQBAA2yjSv9LX86nKrhx5DzfIi09cZAQF3s1JsiS0qCACY23eP6ikhBFn4FZBeoHlGJXyIWLCHmXm2LVRadS4Au1DqEM804ZCSQpr3ZCBY8q4EXZAIS8B5SmYJD7b7cUGLLExmZAmL5JNpQPdJMVZAnUrCa2HM6lD323koGn8R5gRQIvZBE9PvshnaRJb4m9vQm17NmHi4czgk2CiH4n3fdnpkZD")
+  $api = Koala::Facebook::API.new("CAAFdvM04JnQBALUQanh01BB3ix1wDVB11EhfyCMJRe6A3MRyqgZBMZC0U3IY2OGHwTOQvZAAnDCdZATXLsuUmF6ApqDA9iNLZAKNaWiwN2CcZAZB0aE5d4CA151Dbz6WN3JC9gApuyMmImQLuZA9kL4yiPFtwjaWqjm9jR4G7s5LE5ZAzdlsXJ8QPtcXu4T5zMTgZD")
 
 
     # Settings in config/environments/* take precedence over those specified here.
