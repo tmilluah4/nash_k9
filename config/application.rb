@@ -21,9 +21,9 @@ module NashK9
     # get new access token from https://developers.facebook.com/tools/explorer/384540454954612/?method=GET&path=100000256514752%3Ffields%3Did%2Cname
     # make sure it is the "test" app
     # paste it at end of line below and go the url...it will generate the new one to use....replace the old api keys with this new key
-    # https://graph.facebook.com/oauth/access_token?%20client_id=384540454954612&%20client_secret=5cad8eb3f2b7211c13574a6a31919b80&%20grant_type=fb_exchange_token&%20fb_exchange_token=
+    # https://graph.facebook.com/oauth/access_token?%20client_id=384540454954612&%20client_secret=5cad8eb3f2b7211c13574a6a31919b80&%20grant_type=fb_exchange_token&%20fb_exchange_token=CAAFdvM04JnQBAGu9W1iNiqp8EeEalZCihyBH55FpWljgjl3mUFk9RwIsoh2DGPB2mEYw0lvE4PvgUcwCYja9wJrVX9X87kZBMqRVu41yTxZAN8OMnRJLpn6PH662pSv5mWfFWTTZCFYlg5fLnarc7ojtcAvOSinh0tPZAQbOWxUYoX2CPB1ZBqGFxlak8SNjEZD
 
-  $api = Koala::Facebook::API.new("CAAFdvM04JnQBAAHDpx9vfNllqyASao6IZBrZBceDHEVTM2dMia2tTZCXpHxjmZBPoZBghvpa8WKZCHW9v9IHs6FZBOspOOq38fek3AqwNJQxyxYYWeuwsKpHkplGoYaJZAiSNMzE8gqjpulygWfz2zqQ97rZBHz68ZBvqLoo9mDGmCWB7xZAzjoOUxO")
+  $api = Koala::Facebook::API.new("CAAFdvM04JnQBACoZCAZCZB0MwUG2CLl4DK8ZAxEsxOQALirhwrJTymZBZCTfJCkyvh0qnPVEO2VoIYb2492F9MThgXklvP744y1g0dKHDB6lkND1fxN2nN5hszO9ZB7u7GUR5t3g6enyoT0o5uqAU1KeFEhFVZA4NsPadPqQd7tz7uLZCjMTnN7WO")
 
 
     # Settings in config/environments/* take precedence over those specified here.
