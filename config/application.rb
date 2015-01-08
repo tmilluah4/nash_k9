@@ -21,9 +21,9 @@ module NashK9
     # get new access token from https://developers.facebook.com/tools/explorer/384540454954612/?method=GET&path=100000256514752%3Ffields%3Did%2Cname
     # make sure it is the "test" app
     # paste it at end of line below and go the url...it will generate the new one to use....replace the old api keys with this new key
-    # https://graph.facebook.com/oauth/access_token?%20client_id=384540454954612&%20client_secret=5cad8eb3f2b7211c13574a6a31919b80&%20grant_type=fb_exchange_token&%20fb_exchange_token=CAAFdvM04JnQBAAhQEiBa0MqEXaFLi6oJucPnFzjT1X5WoPWNkomrA8Fy96w1u5y9p9wN3oY7GkOF9ueZCjZBiNdxgV3ZAY80wRLwUV6pUZBWzfZC4VHUsUcIuGjCAVmB8b2ldNw2yOauOEWQJqPhiOpgUrqocknb99PQ3ZC9ZACs7PDT2rOVyTdToe8tGHw4KgEL1JQvxCPrOT87qV3HksOcskSdMZA4uFwZD
+    # https://graph.facebook.com/oauth/access_token?%20client_id=384540454954612&%20client_secret=5cad8eb3f2b7211c13574a6a31919b80&%20grant_type=fb_exchange_token&%20fb_exchange_token=CAAFdvM04JnQBAGZCGF3jrwQ2hjLZA4TA5Oi5KhTYUxKarZBPL3FiXS4YhNZAAFJJpmsJZBLc5F7ccQUJ7ef8ddNKk2RqnG3IUMRzmgWksJP1vN4mbZAQcSWmDDNxYAsYX0KZBg6ZCxjZAo8ZC5o6gJPbcuArgQQdtfcz5vHBFrLyAEVLbZCcQcAuxZAu8ZC2VgxEmgmWZCP7Y5mHtx2wtpZBWLbcHSNlmjEflZChnUkZD
 
-  $api = Koala::Facebook::API.new("CAAFdvM04JnQBACZCdhlYZC42DWsMwUc7kdKdl8Eh47jCB6VZA2y9lcWCiWzXd2BnQikGMAiic7Wby1PbZCUMZBZCxNfBRaI2gX7NsfEuwAJBQCQ0V1zhog6ZBSrZCdLOD4ncZB3RNxzFKreiEBGNwjb1VKIOynZBo0425d3lC61V2tmM4nGeUJNaeyqcq9TmokRSSL8oCORZA4AL8nZAJbhuUDX9")
+  $api = Koala::Facebook::API.new("CAAFdvM04JnQBAF268OwRFZAQUgb2HAZCRy9fo8X7UWyliM9G61MP6KIi5v0FzA7nMJjoUdZCPPjrPOEUNFuCyF42c8Kw6QJrZA2R4le8LZBPqG5EnCPPSQgjETfJKop0QhRu2wbgXaIaeTxmFxvHMXKRktguDHkFAkbT6ZBbHeZArsSyl5VidNzaZBZCvfgK0pL4bKEyZBZBhrZAmZBefXV1ciTz1&expires=5183415")
 
 
     # Settings in config/environments/* take precedence over those specified here.
