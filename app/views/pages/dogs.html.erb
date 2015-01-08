@@ -509,52 +509,6 @@
   </div>
 
 
-  <div class="title">
-      Yogi von Stutts, Personal Protection Dog
-    </div>
-    <div class="right-dogs">
-      <div   class="image-border-right">
-        <div class="sold">
-          <table class="soldtable">
-            <tbody>
-            <tr>
-              <td class="soldtd">SOLD</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
-            <% if album['name'].include? 'Yogi' %>
-                <div class="count">
-                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
-                </div>
-                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Yogi" class="fancygallery">
-                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
-                </a>
-                <div>
-                  <% @dogs[1]["fql_result_set"].each do |dog| %>
-                      <a   href="<%= dog["src_big"]  %>"  rel="Yogi" class="fancygallery">   </a>
-                  <% end %>
-                </div>
-            <% end %>
-        <% end %>
-        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
-        <div  class="videos-text">Videos:
-          <a class="video"  title="" href="http://player.vimeo.com/video/15490846?fs=1&amp;autoplay=1">
-            Cane Corso Obedience
-          </a>
-        </div>
-      </div>
-      <ul>
-        <li class="parent"><span class="text">Breed: Cane Corso</span></li>
-        <li class="parent"><span class="text">Sire: Boone Stutts</span></li>
-        <li class="parent"><span class="text"> Dam: Bandr’s Mona Lisa De Nicci</span></li>
-        <li class="parent"><span class="text">Date of Birth: May 19, 2009</span></li>
-        <li class="parent"><span class="text"> Certifications: International Cane Corso Federation, AKC S.T.A.R. Puppy, AKC Canine Good Citizen, AKC Registration available</span></li>
-        <li class="parent"><span class="text">Yogi is a great family dog. Raised around small children, he is patient and loving. He’s fully trained on leash and off leash, will heel on your left, and has a natural charisma that stops people around just to watch. He’s protective in the home, but really gentle with the family. He’s great with other dogs and has great stamina if you’d like to take him on a run.
-        He’s up to date on all vaccinations.</span></li>
-      </ul>
-    </div>
 
 
   <div class="title">
