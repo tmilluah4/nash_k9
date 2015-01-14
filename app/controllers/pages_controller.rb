@@ -20,8 +20,8 @@ class PagesController < ApplicationController
     session[:oauth] = Koala::Facebook::OAuth.new(APP_ID, APP_SECRET, SITE_URL + '/gallery')
     @auth_url =  session[:oauth].url_for_oauth_code(:permissions=>"read_stream")
      @dogs =  $api.rest_call("fql.multiquery", {:queries => {
-            "1" => "SELECT src_big FROM photo WHERE aid = '100000256514752_124308'",
-            "2" => "select src_big from photo where aid = '100000256514752_53171' LIMIT 10",
+            "1" => "SELECT src_big FROM photo WHERE aid = '100000256514752_124308' LIMIT 10",
+            "2" => "SELECT src_big from photo where aid = '100000256514752_53171' LIMIT 10",
             "3" => "SELECT src_big FROM photo WHERE aid = '100000256514752_124390' LIMIT 10",
             "4" => "SELECT src_big FROM photo WHERE aid = '100000256514752_124309' LIMIT 10",
             "5" => "SELECT src_big FROM photo WHERE aid = '100000256514752_124327' LIMIT 10",
@@ -46,6 +46,8 @@ class PagesController < ApplicationController
             "95" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073741846'  LIMIT 10",
             "96" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073741889'  LIMIT 10",
             "97" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073741893'  LIMIT 10",
+            "98" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073742006' LIMIT 10",
+            "99" => "SELECT src_big FROM photo WHERE aid = '100000256514752_1073742023' LIMIT 10",
     }.to_json})
     @dog_cover = $api.rest_call("fql.multiquery", {:queries => {
         "query1" => "select aid, cover_pid, photo_count, name from album where owner = me() and photo_count > 0  order by created desc",

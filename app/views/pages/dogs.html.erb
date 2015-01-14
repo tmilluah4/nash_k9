@@ -509,6 +509,102 @@
   </div>
 
 
+  <div class="title">
+    Hurricane, Personal Protection Dog - Available for Stud
+    </div>
+    <div class="right-dogs">
+      <div   class="image-border-right">
+        <div class="sold">
+          <table class="soldtable">
+            <tbody>
+            <tr>
+              <td class="soldtd">SOLD</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+            <% if album['name'].include? 'Hurricane' %>
+                <div class="count">
+                  <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+                </div>
+                <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Hurricane" class="fancygallery">
+                  <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+                </a>
+                <div>
+                  <% @dogs[26]["fql_result_set"].each do |dog| %>
+                      <a   href="<%= dog["src_big"]  %>"  rel="Hurricane" class="fancygallery">   </a>
+                  <% end %>
+                </div>
+            <% end %>
+        <% end %>
+        <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+        <div  class="videos-text">Videos:
+          <a class="video"  title="" href="http://player.vimeo.com/video/110069505?fs=1&amp;autoplay=1">
+           1
+          </a>
+        </div>
+      </div>
+      <ul>
+        <li class="parent"><span class="text">Breed: German Shepherd</span></li>
+        <li class="parent"><span class="text">Sire: Cento van Kiefbos, IPO III</span></li>
+        <li class="parent"><span class="text"> Dam: Jucca van den Ronden Hoek, SCH III</span></li>
+        <li class="parent"><span class="text">Date of Birth: May 21, 2010</span></li>
+        <li class="parent"><span class="text">Hurricane is a powerhouse. A lovable, social, and friendly dominant male, he possesses the athleticism and raw power to crush any challenge. Hurricane  comes from a top pedigree, shows courage and agility where others falter, and is very clear headed. Hurricane is available for stud.</span></li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+  <div class="title">
+    Antrax von Hegpeter IPO III, Personal Protection Dog- Available for Stud
+  </div>
+  <div class="right-dogs">
+    <div   class="image-border-right">
+      <div class="sold">
+        <table class="soldtable">
+          <tbody>
+          <tr>
+            <td class="soldtd">SOLD</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <% @dog_cover[0]["fql_result_set"].each_with_index do |album, index| %>
+          <% if album['name'].include? 'Antrax' %>
+              <div class="count">
+                <%= @dog_cover[0]["fql_result_set"][index]["photo_count"]   %>
+              </div>
+              <a href="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>" rel="Antrax" class="fancygallery">
+                <img src="<%= @dog_cover[1]['fql_result_set'][index]['src_big'] %>"   />
+              </a>
+              <div>
+                <% @dogs[27]["fql_result_set"].each do |dog| %>
+                    <a   href="<%= dog["src_big"]  %>"  rel="Antrax" class="fancygallery">   </a>
+                <% end %>
+              </div>
+          <% end %>
+      <% end %>
+      <div  class="photo">CLICK PHOTO TO VIEW GALLERY</div>
+      <!--<div  class="videos-text">Videos:
+        <a class="video"  title="" href="http://player.vimeo.com/video/110069505?fs=1&amp;autoplay=1">
+          1
+        </a>
+      </div>  -->
+    </div>
+    <ul>
+      <li class="parent"><span class="text">Breed: German Shepherd </span></li>
+      <li class="parent"><span class="text">Sire: Tarnoki-Felvigyazo Quando, IPO III </span></li>
+      <li class="parent"><span class="text"> Dam:  Szecsivari Baronas, IPO I</span></li>
+      <li class="parent"><span class="text">Date of Birth:  May 5, 2010</span></li>
+      <li class="parent"><span class="text"> Antrax redefines intensity. A calm yet powerful dog, Antrax's athletic abilities far surpasses most dogs. Everything from full grip and hard bites to flashy obedience, Antrax gives his owners an unfair advantage. He has also competed in the Hungarian Championship. IPO Scores: 99.96.90</span></li>
+    </ul>
+  </div>
+
 
 
   <div class="title">
