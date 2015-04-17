@@ -1,0 +1,28 @@
+	<script type="text/javascript">  
+		function setActive() {
+		
+			 aObj1 =   document.getElementById('overview-sidebar').getElementsByTagName('a'); 
+			 document.getElementById('overviewli').className='active';
+			 for(i=0;i<aObj1.length;i++) { 
+				  if(document.location.href.indexOf(aObj1[i] )>=0){
+						aObj1[i].className='list-group-item active';
+				  }
+			 }
+		}
+		window.onload = setActive;
+	</script>
+
+	<div class="image-random">
+		<img src="/images/dog_training_overview/overview.jpg"/>				 
+	</div>	
+
+	<div id="overview-sidebar" class="list-group" style="margin-top:30px;">
+	  <a   href="overview.php" class="list-group-item" > K-9 OVERVIEW </a> 
+	  <a   href="meet-the-team.php" class="list-group-item" > MEET THE TEAM</a>
+	  <a   href="company-facts.php" class="list-group-item" > COMPANY FACTS </a>
+	  <a   href="facility.php" class="list-group-item"> FACILITY</a>
+	  <a   href="testimonials.php" class="list-group-item"> TESTIMONIALS </a>
+	  <a   href="press.php" class="list-group-item"> PRESS </a>
+	  <a   href="partners.php" class="list-group-item"> PARTNERS </a> 
+	</div>
+ 

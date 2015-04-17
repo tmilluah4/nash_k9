@@ -1,0 +1,60 @@
+/* Static state */
+#folding-animation-container 	{ 
+	width: 350px; 
+	height: 200px; 
+	position: relative; 
+	border: 1px solid #ccc; 
+  
+}
+.dog-training-programs{
+      background-image: url("../images/training-programs.png");		 
+}
+.executive-protection{
+      background-image: url("../images/executive-protection.png");		 
+}
+.detection-dogs{
+      background-image: url("../images/detection-dogs.png");		 
+}
+.police-dogs{
+      background-image: url("../images/police-dogs.png");		 
+}
+.search-rescue{
+      background-image: url("../images/search-rescue.png");		 
+}
+.pet-first-aid{
+     background-image: url("../images/pet-first-aid.png");	
+}
+.parent1 	{ 
+	/* overall animation container */
+	height: 0; 
+	overflow: hidden;
+    
+	transition-property: height;
+	transition-duration: 1s;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.parent2	{ 
+	/* full content during animation *can* go here */ 
+}
+.parent3	{ 
+	/* animated, "folded" block */
+	height: 56px; 
+	transition-property: all; 
+	transition-duration: 1s;
+	transform: rotateX(-90deg);
+	transform-origin: top; 
+}
+
+/* Hover states to trigger animations */
+#folding-animation-container:hover .parent1	{ 
+	height: 200px; 
+}
+#folding-animation-container:hover .parent3	{
+	transform: rotateX(0deg); 
+    background:white;
+    opacity:.5;
+	height: 200px; 
+    padding:10px;
+    font-weight:bold;
+}

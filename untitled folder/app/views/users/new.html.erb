@@ -1,0 +1,46 @@
+<%= render :partial => 'layouts/header_child', :locals => { :show_links => true } %>
+
+<div class="main"  >
+  <%= render :partial => 'layouts/contact_sidebar', :locals => { :show_links => true } %>
+  <div class="content">
+    <img src="/assets/titles/Insist.png">
+    </br> </br>
+      <div class="contact-us">
+      <%= form_for @user do |f| %>
+
+
+                <% if @user.errors.any? %>
+                    <div class="error_messages">
+
+                      <ul>
+                        <% @user.errors.full_messages.each do |msg| %>
+                            <li><%= msg %></li>
+                        <% end %>
+                      </ul>
+                    </div>
+                <% end %>
+                <%= f.label :name %>
+                <div class="field">
+                  <%= f.text_field :name  %>
+                </div>
+                <%= f.label :email %>
+                <div class="field">
+                  <%= f.text_field :email %>
+                </div>
+                <%= f.label :phone %>
+                <div class="field">
+                    <%= f.text_field :phone %>
+                </div>
+                <%= f.label :message %>
+                <div class="field">
+                  <%= f.text_area :message %>
+                </div>
+                <div class="actions">
+                  <%= f.submit "Submit" %>
+                </div>
+
+            <% end %>
+      </div>
+     </div>
+
+    </div>

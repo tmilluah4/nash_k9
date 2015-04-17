@@ -1,0 +1,41 @@
+
+//##########  MENU  ##################
+.menu {
+  width: 570px;
+  margin-top: 80px;
+  margin-right:100px;
+  float: right;
+  background-image: url('/assets/menu.png');
+  padding:1px 0px 1px 0px;
+  width: 730px;
+  table {
+    padding-left: 13px;
+  }
+  a:link {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 14px;
+
+  }
+  a:visited {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  a:active {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  a:hover {
+     color:#B8A84F;
+  }
+  img {
+    padding: 0 7px 0 7px;
+
+  }
+}
+//############################

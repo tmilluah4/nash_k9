@@ -1,0 +1,31 @@
+ <script type="text/javascript">  
+	function setActive()	{
+	
+		 ssa =   document.getElementById('services-sidebar').getElementsByTagName('a'); 
+		 document.getElementById('servicesli').className='active';
+		 for(i=0;i<ssa.length;i++) { 
+			  if(document.location.href.indexOf(ssa[i] )>=0){
+					ssa[i].className='list-group-item active';
+			  }
+		 }
+	}
+	window.onload = setActive;
+</script>
+ 
+	<div class="image-random">
+		<img src="/images/dog_training_services/dog-training-services.png"/>				 
+	</div>			
+	</br>
+	<div class="list-group" id="services-sidebar" style="margin-top:-40px" >
+	  <a href="services.php" class="list-group-item">   K-9 SERVICES </a> 
+	  <a href="dog-training-programs.php" class="list-group-item">  DOG TRAINING PROGRAMS</a>
+	  <a href="executive-protection-dogs.php" class="list-group-item"> EXECUTIVE PROTECTION DOGS</a>
+	  <a href="detection-dogs.php" class="list-group-item"> DETECTION DOGS</a>
+	  <a href="police-dogs.php" class="list-group-item"> POLICE DOGS</a>
+	  <a href="working-dogs.php" class="list-group-item"> WORKING DOGS</a>
+	  <a href="search-and-rescue.php" class="list-group-item"> SEARCH AND RESCUE </a> 
+	  <a href="pet-first-aid.php" class="list-group-item"> PET FIRST AID </a> 
+	  <a href="hunting-dogs.php" class="list-group-item"> HUNTING DOGS</a> 
+	</div>
+ 
+ 
