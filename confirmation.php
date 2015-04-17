@@ -23,14 +23,14 @@
 <body> 
 	<?php
 		require 'vendor/autoload.php';
-		$sendgrid = new SendGrid('app35497125@heroku.com', '62osfefm');
+		$sendgrid = new SendGrid('app9520868@heroku.com', '62osfefm');
 		$message = new SendGrid\Email();
 		$name = $_POST['name'];
 		$phone = $_POST['phone'];
 	    $email = $_POST['email'];
 	    $subject = $_POST['subject'];
 		$notecontent = $_POST['notecontent'];  
-		$message->addTo('ali@nashvillek9.com')->
+		$message->addTo('todd.miller3@yahoo.com')->
 	          setFrom('rtoddmiller3@gmail.com')->
 	          setSubject('Contact Form Submission')->
 	          setText('Name:   $name \r\n  Email:  $email \r\n  Subject: $subject \r\n Message:  $notecontent ')->
