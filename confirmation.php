@@ -30,7 +30,7 @@
 	    $email = $_POST['email'];
 	    $subject = $_POST['subject'];
 		$notecontent = $_POST['notecontent'];  
-		$message->addTo('todd.miller3@yahoo.com')->
+		$message->addTo('ali@nashvillek9.com')->
 	          setFrom('rtoddmiller3@gmail.com')->
 	          setSubject('Contact Form Submission')->
 	          setText('Name:   $name \r\n  Email:  $email \r\n  Subject: $subject \r\n Message:  $notecontent ')->
