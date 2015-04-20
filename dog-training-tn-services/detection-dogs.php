@@ -26,7 +26,7 @@
 <div class="section-with-header">
 
 <div class="image-wrap-right " >
-	<img class="img-responsive"  width="250px" src="/images/services-1.jpg"/>
+	<img class="img-responsive"  width="250px" src="/images/detection-dogs.png"/>
 
 </div>
 <p>
