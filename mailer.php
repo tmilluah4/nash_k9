@@ -4,7 +4,7 @@
   
 	require 'vendor/autoload.php';
   
-	$sendgrid = new SendGrid('app35497125@heroku.com', 'N@$hv!lleK9');
+	$sendgrid = new SendGrid('app35497125@heroku.com', '62osfefm');
 
 	$message = new SendGrid\Email();
 
