@@ -23,7 +23,7 @@
 <body> 
 	<?php
 		require 'vendor/autoload.php';
-		$sendgrid = new SendGrid('app9520868@heroku.com', '8oeqczgw');
+		$sendgrid = new SendGrid('app9520868@heroku.com', 'N@$hv!lleK9');
 		$message = new SendGrid\Email();
 		$name = $_POST['name'];
 		$phone = $_POST['phone'];
