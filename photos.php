@@ -10,7 +10,7 @@
 
 	<script src="js/imgLiquid-min.js"></script>
 		<script type="text/javascript"> 
-			jQuery(document).ready(function($){
+			jQuery(document).ready(function($){ 
 					  $(".imgLiquid").imgLiquid();
 
 					});
@@ -28,7 +28,9 @@
 
 
 				<?php 
-					$json_link = "http://graph.facebook.com/{$album_id}/photos?fields=source";
+				$access_token = 'access_token=1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE'
+				 
+					$json_link = "https://graph.facebook.com/v2.3/$album_id}/photos?fields=source&{$access_token}";
 					$json = file_get_contents($json_link);
 					$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
 					$photo_count = count($obj['data']);		

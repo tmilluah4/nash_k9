@@ -1,4 +1,4 @@
-
+ 
 <!DOCTYPE html>
 <html>
 	<head>
@@ -52,16 +52,21 @@
 									Duke  https://vimeo.com/117877219
 									Pito https://vimeo.com/117875524
 									Knox https://vimeo.com/76661706
+									
+									https://graph.facebook.com/v2.3/283654260595/albums?fields=id,name,description,link,cover_photo,count&access_token={access_token}";
 								-->
 						 
-								</br>
+								</br> 
 								</br>
 								<div style="margin-left: 40px">
 									<div class="dog dog-first">
 									<div class="caption">Argo Avodar</div>  
 										<div class="dog-image">
-									 <?php
-											$antrax = "http://graph.facebook.com/10152268881640596/photos?fields=source";
+									 <?php 
+								 			$access_token = 'access_token=1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE'
+								 			$antrax_album = '10152268881640596';
+											$antrax = "https://graph.facebook.com/v2.3/{$antrax_album}/photos?fields=source&{$access_token}";
+											//$antrax = "http://graph.facebook.com/10152268881640596/photos?fields=source";
 											$json = file_get_contents($antrax);
 											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
 											$source = $obj['data'][0]['source'];  
