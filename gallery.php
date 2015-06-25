@@ -51,7 +51,8 @@
 													echo "</div>";
 													echo "<div class='imgLiquid'  style='margin: 2px 2px 2px 2px;width:275px; height:275px'>";
 														echo "<a href='{$show_pictures_link}'  >";
-															echo "<img class='photo-thumb'  src='https://graph.facebook.com/v2.3/{$cover_photo}/picture&access_token={$access_token}' alt='{$description}'>";
+														
+															echo "<img class='photo-thumb'  src='https://graph.facebook.com/v2.3/{$cover_photo}/picture?&access_token={$access_token}' alt='{$description}'>";
 														echo "</a>";
 													echo "</div>"; 
 												echo "</div>";
