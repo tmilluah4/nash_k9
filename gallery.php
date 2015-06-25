@@ -19,12 +19,11 @@
 					<div class="col-sm-10">
 						 <?php include('partials/header.html');?>
 						 <div class="row " style="margin-left:20px"> 
-							<!-- https://graph.facebook.com/oauth/access_token?client_id=1553215644935364&client_secret=87ddca6fd36408163b6f1670f3f8e741&grant_type=client_credentials
->
+						 
 							<?php
 								 $fb_page_id = "283654260595";
-								 $access_token = 'access_token=1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE'
-								 $json_link = "https://graph.facebook.com/v2.3/283654260595/albums?fields=id,name,description,link,cover_photo,count&{$access_token}";
+								 $access_token = '1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE';
+								 $json_link = "https://graph.facebook.com/v2.3/283654260595/albums?fields=id,name,description,link,cover_photo,count&access_token={$access_token}";
 								 $json = file_get_contents($json_link);
 								 $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
 								 $album_count = count($obj['data']);
@@ -52,7 +51,7 @@
 													echo "</div>";
 													echo "<div class='imgLiquid'  style='margin: 2px 2px 2px 2px;width:275px; height:275px'>";
 														echo "<a href='{$show_pictures_link}'  >";
-															echo "<img class='photo-thumb'  src='https://graph.facebook.com/v2.3/{$cover_photo}/picture' alt='{$description}'>";
+															echo "<img class='photo-thumb'  src='https://graph.facebook.com/v2.3/{$cover_photo}/picture&access_token={$access_token}' alt='{$description}'>";
 														echo "</a>";
 													echo "</div>"; 
 												echo "</div>";
