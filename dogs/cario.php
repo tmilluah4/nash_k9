@@ -57,7 +57,9 @@
 					<div class="row dog-gallery-row">
 						<div class="col-md-12"> 
 							<?php 
-								$dog = "http://graph.facebook.com/10152268933945596/photos?fields=source";
+								$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE"; 
+								$dog = "https://graph.facebook.com/v2.3/10152268933945596/photos?fields=source&access_token={$access_token}";
+							       
 								$json = file_get_contents($dog);
 								$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
 								$photo_count = count($obj['data']); 
