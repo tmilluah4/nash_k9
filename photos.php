@@ -29,15 +29,17 @@
 
 				<?php  
 				 
-				 
-					$json_link = "https://graph.facebook.com/v2.3/$album_id}/photos?fields=source";
+			 
+				
+				 	$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+					$json_link = "https://graph.facebook.com/v2.3/{$album_id}/photos?fields=source,name&access_token={$access_token}";
 					$json = file_get_contents($json_link);
 					$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
 					$photo_count = count($obj['data']);		
 					
 					for($x=0; $x<$photo_count; $x++){ 
 						 $source = isset($obj['data'][$x]['source']) ? $obj['data'][$x]['source'] : ""; 
- 
+ $name = isset($obj['data'][$x]['name']) ? $obj['data'][$x]['name'] : ""; 
 						
 						 echo "<div class='imgLiquid'  style='-moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000;display: inline-block; margin: 10px;width:206px; height:206px'>"; 
 					            	echo "<a href='{$source}' rel='gallery1'  class='fancybox' data-gallery>";

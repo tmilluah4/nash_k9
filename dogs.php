@@ -63,11 +63,11 @@
 									<div class="caption">Argo Avodar</div>  
 										<div class="dog-image">
 									 <?php 
-								 			$access_token = 'access_token=1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE'
-								 			$antrax_album = '10152268881640596';
-											$antrax = "https://graph.facebook.com/v2.3/{$antrax_album}/photos?fields=source&{$access_token}";
-											//$antrax = "http://graph.facebook.com/10152268881640596/photos?fields=source";
-											$json = file_get_contents($antrax);
+								 			$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268881640596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
 											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
 											$source = $obj['data'][0]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
@@ -88,14 +88,18 @@
 										  <a href="dogs/argo.php" class="info">More on Argo</a>
 									</div>
 								</div>  
-								
-								
+										
 								<div class="dog dog-first">
 									<div class="caption"> Antrax von Hegpeter</div>
 									<div class="dog-image">
 										<?php
-											 $antrax = "http://graph.facebook.com/10154986213510596/photos?fields=source";
-											 $json = file_get_contents($antrax);
+										$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10154986213510596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+											 
 											 $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
 											 $source = $obj['data'][0]['source'];
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
@@ -122,8 +126,13 @@
 									<div class="caption">Ammo</div>  
 									<div class="dog-image">  
 										<?php
-											$dog = "http://graph.facebook.com/10154237525855596/photos?fields=source";
-										   $json = file_get_contents($dog);
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10154237525855596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
 										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
 											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
@@ -148,10 +157,16 @@
 									<div class="caption">Duke</div>
 									<div class="dog-image">
 										<?php
-											$antrax = "http://graph.facebook.com/10155119454660596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10155119454660596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -176,11 +191,19 @@
 						 	<div class="dog dog-first">
 									<div class="caption">Hurricane</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10154540915460596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+										 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10154540915460596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -197,11 +220,19 @@
 								  <div class="dog dog-first">
 									<div class="caption"> Cairo</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268933945596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+											 
+											<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268933945596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -222,11 +253,19 @@
 						 	<div class="dog dog-first">
 								<div class="caption"> Knox</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10153858202945596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+										 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10153858202945596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -247,11 +286,19 @@
 						  <div class="dog dog-first">
 									<div class="caption"> Peik vom Dichterviertel</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268891510596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268891510596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -274,14 +321,22 @@
 							  <div class="dog dog-first">
 									<div class="caption"> Roxy vom Neerland</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268868050596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+										 
+										 
+											<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268868050596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>"; 
+											 echo "</div>";
 										 ?>
 									</div>
 									<div class="mask">
@@ -302,11 +357,19 @@
 						 	<div class="dog dog-first">
 									<div class="caption">Scout vom Geistwasser </div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152749003450596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+										 
+											<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152749003450596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -330,11 +393,19 @@
 									<div class="dog dog-first">
 									<div class="caption"> Taro</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152541427840596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152541427840596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -362,11 +433,19 @@
 						 	<div class="dog dog-first">
 									<div class="caption"> Pito</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268955075596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+											 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268955075596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -389,11 +468,19 @@
 						 		<div class="dog dog-first">
 									<div class="caption"> Micah Vom Hemyarihaus</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268904915596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+										 
+											 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268904915596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -416,11 +503,19 @@
 								  <div class="dog dog-first">
 								<div class="caption"> Ken vom Glockeneck</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152269125175596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+										 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152269125175596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -443,11 +538,19 @@
 								<div class="dog dog-first">
 									<div class="caption"> Bessi von der Alten Schmiede</div>
 									<div class="dog-image">
-								<?php
-											$antrax = "http://graph.facebook.com/10152270725645596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+							 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152270725645596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -470,11 +573,19 @@
 						 	<div class="dog dog-first">
 								<div class="caption"> Maxine vom Smaragdwald</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152269217300596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152269217300596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -496,11 +607,19 @@
 						 <div class="dog dog-first">
 									<div class="caption">  Cowboy de Atlawor</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268924825596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268924825596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -524,11 +643,19 @@
 								<div class="dog dog-first">
 									<div class="caption"> Tango ot Vitosha </div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268952110596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+										 
+										 
+											 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268952110596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -550,11 +677,19 @@
 									<div class="dog dog-first">
 									<div class="caption"> Jack </div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268929180596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268929180596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -578,11 +713,19 @@
 						   <div class="dog dog-first">
 									<div class="caption">Asko Vom Brockelstein</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152269234030596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+											 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152269234030596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -602,14 +745,22 @@
 						 	<div class="dog dog-first">
 									<div class="caption"> Carlo Van Neerland</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268958910596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152268958910596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>"; 
+											 echo "</div>";
 										 ?>
 									</div>
 									<div class="mask">
@@ -627,13 +778,21 @@
 								<div class="dog dog-first">
 									<div class="caption"> Anna vom Westcowdenhaus</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10150926419215596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+									 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10150926419215596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
 										 ?>
 									</div>
@@ -712,11 +871,19 @@
 							  <div class="dog dog-first">
 									<div class="caption"> Uno vom Westcowdenhaus</div>
 									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152269021445596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+									 
+										 
+										 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152269021445596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
@@ -737,15 +904,23 @@
 								<div class="dog dog-first">
 										<div class="caption">Ziva vom Westcowdenhaus</div>
 										<div class="dog-image">
-											<?php
-												$antrax = "http://graph.facebook.com/10152270839460596/photos?fields=source";
-												$json = file_get_contents($antrax);
-												$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-												$source = $obj['data'][0]['source'];  
+											 
+												 
+											 	<?php
+										 
+											$access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
+								 			$dog_gallery = "10152270839460596";
+											$json_link = "https://graph.facebook.com/v2.3/{$dog_gallery}/photos?fields=source&access_token={$access_token}";
+											 
+											$json = file_get_contents($json_link);
+										
+										 
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
-											 ?>
+										 ?>
 										</div>
 										<div class="mask">
 											 <h2></h2>
@@ -757,6 +932,7 @@
 												</ul>         
 												<a href="/dogs/ziva.php" class="info">More on Ziva</a>
 										</div>
+						
 								</div> 
 							 </div>
 						</div> 	 

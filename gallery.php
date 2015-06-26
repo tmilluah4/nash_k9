@@ -22,7 +22,7 @@
 						 
 							<?php
 								 $fb_page_id = "283654260595";
-								 $access_token = '1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE';
+								 $access_token = "1553215644935364|xvz9dUPZ7dX6Ii0CAMAIMQQTcqE";
 								 $json_link = "https://graph.facebook.com/v2.3/283654260595/albums?fields=id,name,description,link,cover_photo,count&access_token={$access_token}";
 								 $json = file_get_contents($json_link);
 								 $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
