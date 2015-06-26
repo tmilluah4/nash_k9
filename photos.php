@@ -41,8 +41,8 @@
 						
 						 echo "<div class='imgLiquid'  style='-moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000;display: inline-block; margin: 10px;width:206px; height:206px'>"; 
 					            	echo "<a href='{$source}' rel='gallery1'  class='fancybox' data-gallery>";
-										echo "<img   class='photo-thumb' src='{$source}'   alt=''>"; 
-					                 
+										echo "<div   class='photo-thumb' style='background:url({$source}) 50% 50% no-repeat'   alt=''>"; 
+					                echo "</div>";
 					            	echo "</a>";  
 					        echo "</div>";
 						
